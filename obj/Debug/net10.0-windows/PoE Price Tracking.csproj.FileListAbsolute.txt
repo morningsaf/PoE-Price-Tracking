@@ -1,0 +1,1576 @@
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.exe
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.deps.json
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.runtimeconfig.json
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.pdb
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.g.resources
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.GeneratedMSBuildEditorConfig.editorconfig
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.AssemblyInfoInputs.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.AssemblyInfo.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.csproj.CoreCompileInputs.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\refint\PoE Price Tracking.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.pdb
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.genruntimeconfig.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\ref\PoE Price Tracking.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\ItemSelectionWindow.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\ItemSelectionWindow.g.cs
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Humanizer.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Build.Framework.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.VisualStudio.SolutionPersistence.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Mono.TextTemplating.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.AttributedModel.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Convention.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Hosting.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Runtime.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.TypedParts.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.csproj.AssemblyReference.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Pric.33EEA0AB.Up2Date
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\poe.db
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_Content.g.cs
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abberath's Hooves_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abberath's Horn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abhorrent Interrogation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abyssus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Acton's Nightmare_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Actum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Admiral's Arrogance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Advancing Fortress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aegis Aurora_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Agnerod East_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Agnerod North_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Agnerod South_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Agnerod West_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahkeli's Meadow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahkeli's Mountain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahkeli's Valley_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahn's Contempt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahn's Heritage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahn's Might_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ahuana's Bite_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Akoya's Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Al Dhih_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Alberon's Warpath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Algor Mortis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Allelopathy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Allure_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Alpha's Howl_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Altered Distant Memory_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Amanamu's Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ambu's Charge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Amplification Rod_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Anathema_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Anatomical Knowledge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ancestral Vision_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ancient Skull_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ancient Waystones_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Andvarius_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Angler's Plait_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Animate Weapon of Self Reflection_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Annihilation's Approach_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Apep's Rage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Apep's Slumber_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Apep's Supremacy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Apex Mode_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Apparitions (jewel)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Arakaali's Fang_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Araku Tiki_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Arborix_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Architect's Hand_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Arn's Anguish_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ascent From Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Asenath's Chant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Asenath's Gentle Touch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Asenath's Mark_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ashcaller_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ashes of the Stars_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ashrend_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Asphyxia's Wrath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Assailum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Assassin's Haste_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Astral Projector_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Astramentis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Acuity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Disfavour_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Foible_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Mirror_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Promise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Reflection_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Reign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Rule_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Armour and Energy Shield)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Armour and Life)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Armour, Energy Shield and Life)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Armour, Evasion and Energy Shield)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Armour, Evasion and Life)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Energy Shield)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Evasion and Energy Shield)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Evasion and Life)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Splendour (Evasion, Energy Shield and Life)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Atziri's Step_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Augmented Distant Memory_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Augyre_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aukuna's Will_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aul's Uprising (All Attributes)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aul's Uprising (Dexterity)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aul's Uprising (Intelligence)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aul's Uprising (Strength)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aurseize_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Aurumvorax_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Auxium_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Axiom Perpetuum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Azadi Crest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Badge of the Brotherhood_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Balefire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bated Breath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Beacon of Madness (Cold and Lightning Resistance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Beacon of Madness (Fire and Cold Resistance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Beacon of Madness (Fire and Lightning Resistance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bear's Girdle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Belly of the Beast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Belt of the Deceiver_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Beltimber Blade_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Berek's Grip_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Berek's Pass_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Berek's Respite_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Betrayal's Sting_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Binds of Bloody Vengeance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bino's Kitchen Knife_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bisco's Collar_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bisco's Leash_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bitter Instinct_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bitterbind Point_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bitterdream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Black Sun Crest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Black Zenith_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blackflame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blackgleam_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blackheart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blasphemer's Grasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blightwell_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blood of Corruption_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blood of the Karui_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blood Price_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blood Sacrifice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bloodbond_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bloodgrip_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bloodnotch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bloodplay_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bloodseeker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bloodsoaked Medallion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Blunderbore_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bonemeld_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bones of Ullr_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bottled Faith_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bound By Destiny_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bound Fate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brain Rattler_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bramblejack_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brawn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Breath of the Council_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Breathstealer_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brightbeak_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brinerot Flag_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brinerot Mark_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brinerot Whalers_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Briskwrap_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brittle Barrier_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Broadstroke_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Broken Faith_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bronn's Lithe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brutal Restraint_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brute Force Solution_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Brutus' Lead Sprinkler_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bubonic Trail (1 Abyssal Socket)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Bubonic Trail (2 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cadigan's Authority_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cadigan's Crown_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Caer Blaidd, Wolfpack's Den_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Calamitous Visions_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Call of the Brotherhood_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Call of the Void_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Callinellus Malleus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cameria's Avarice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cameria's Maul_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cane of Kulemak (variant 1)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cane of Kulemak (variant 2)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cane of Kulemak (variant 3)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cane of Unravelling_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Carcass Jack_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Careful Planning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Carnage Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ceaseless Feast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ceinture of Benevolence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cerberus Limb_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chain of Endurance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chains of Command_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chains of Emancipation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chains of Time_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chalice of Horrors_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cheap Construction_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chernobog's Pillar_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cherrubim's Maleficence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chill of Corruption_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chin Sol_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chitus' Apex_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Chober Chaber_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Choir of the Storm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cinderswallow Urn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Ambition_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Anguish (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Anguish_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Fear (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Fear_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Guilt (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Guilt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Nostalgia (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Nostalgia_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Regret (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Circle of Regret_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Clayshaper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Clear Mind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cloak of Defiance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cloak of Flame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cloak of Tawm'r Isley_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coated Shrapnel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cobalt Jewel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coiling Whisper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coin of Restoration_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cold Iron Point_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cold Steel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Collateral Damage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Combat Focus (Cobalt Jewel)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Combat Focus (Crimson Jewel)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Combat Focus (Viridian Jewel)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Combustibles_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Command of the Pit (1 Abyssal Socket)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Command of the Pit (2 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Conqueror's Efficiency_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Conqueror's Longevity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Conqueror's Potency_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Contract
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coralito's Signature_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Corona Solaris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Corpsewalker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Corrupted Energy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cortex_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coruscating Elixir_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cospri's Malice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cospri's Will_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coward's Chains_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Coward's Legacy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cowards' Wail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cowl of the Ceraunophile_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cowl of the Cryophile_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cowl of the Thermophile_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cragfall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Craghead_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Craiceann's Carapace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Craiceann's Chitin_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Craiceann's Pincers_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Craiceann's Tracks_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crest of Desire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crest of Perandus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crimson Jewel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crown of Eyes_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crown of the Inward Eye_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crown of the Pale King_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crown of the Tyrant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crown of Thorns_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Crystallised Omniscience_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Curtain Call_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cybil's Paw_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Cyclopean Coil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dance of the Offered_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Daresso's Courage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Daresso's Defiance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Daresso's Passion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Daresso's Salute_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Darkness Enthroned_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Darkray Vectors_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Darkscorn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dawnbreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dawnstrider_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dead Reckoning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death and Taxes_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death Rush_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death's Door_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death's Hand_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death's Harp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death's Oath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Death's Opus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Debeon's Dirge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Deerstalker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Defiance of Destiny_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Deidbellow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Deidbell_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Beacon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Bounty_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Dominance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Eye_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Immortality_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Presence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Stride_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Touch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demigod's Triumph_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Demon Stitcher_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dendrobate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Devoto's Devotion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dialla's Malefaction_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Disintegrator_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dissolution of the Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Divinarius_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Divination Distillate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Divine Inferno_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doedre's Damning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doedre's Elixir_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doedre's Scorn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doedre's Skin_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doedre's Tenure_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doedre's Tongue_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doomfletch's Prism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doomfletch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doomsower_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doon Cuebiyari_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doppelgänger Guise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Catalyst_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Delusion (Armour)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Delusion (Energy Shield)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Delusion (Evasion)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Fist_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Invitation (Cold Damage)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Invitation (Fire Damage)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Invitation (Lightning Damage)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Invitation (Physical Damage)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Machinarium_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Doryani's Prototype_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dreadarc_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dream Fragments_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dreamfeather_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Drillneck_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Duskdawn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dusktoe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dyadian Dawn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dyadus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dying Breath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Dying Sun_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Earendel's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eber's Unification_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Echoes of Creation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Echoforge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eclipse Solaris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Edge of Madness_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Efficient Training_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\El'Abin's Visage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eldritch Knowledge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Elegant Hubris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Elevore_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Elixir of the Unbroken Circle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Emberwake_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Emperor's Cunning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Emperor's Mastery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Emperor's Might_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Emperor's Vigilance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Emperor's Wit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Empire's Grasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Endless Misery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Energised Armour_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Energy Blade_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Energy From Within_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Enmity's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Entropic Devastation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ephemeral Edge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Esh's Mirror_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Esh's Visage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Essence Worm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Essentia Sanguis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eternal Damnation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ewar's Mirage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Expedition Logbook_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Expedition's End_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Extractor Mentis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eye of Chayula_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eye of Innocence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eye of Malice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Eyes of the Greatwolf_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ezomyte Hold_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ezomyte Peak_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Facebreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fairgraves' Tricorne_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Faithguard_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Faminebind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Farrul's Bite_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Farrul's Chase_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Farrul's Fur_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Farrul's Pounce_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fate of the Vaal_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fated End_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Feastbind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Femurs of the Saints_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fencoil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fenumus' Shroud_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fenumus' Spinnerets_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fenumus' Toxins_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fenumus' Weave_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fertile Mind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Festering Resentment_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fevered Mind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fidelitas' Spike_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fight for Survival_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fireborn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Firesong_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\First Snow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fishing Rod_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Flamesight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Flesh and Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Flesh-Eater_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fleshcrafter_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fleshrender_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fluid Motion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Font of Thunder_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Forbidden Flame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Forbidden Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Forbidden Shako_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Forbidden Taste_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Forbidden Tome_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fortified Legion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fortress Covenant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Foxshade_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fractal Thoughts_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fragile Bloom_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fragility_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\From Dust_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Frostbreath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Frostferno_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Frozen Trail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Fury Valve_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Galesight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gamblesprint_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gang's Momentum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Garb of the Ephemeral_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Garukhan's Flight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Geofri's Baptism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Geofri's Crest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Geofri's Legacy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Geofri's Sanctuary_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ghostwrithe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Giantsbane_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gifts from Above_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Glimpse of Chaos_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Glitterdisc_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gloomfang_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Glorious Vanity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gluttony_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Goblinedge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Goldrim_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Goldwyrm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gorebreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Goredrill_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gorgon's Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grace of the Goddess_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Cobalt Jewel, crit chance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Cobalt Jewel, minion crit multi)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Cobalt Jewel, power charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Crimson Jewel, endurance charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Crimson Jewel, life)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Crimson Jewel, resistance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Viridian Jewel, ailment avoidance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Viridian Jewel, elemental damage)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grand Spectrum (Viridian Jewel, frenzy charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grattus Signet_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gravebind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Graven's Secret_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Great Old One's Tentacles_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Great Old One's Ward_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Greed's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grelwood Shank_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Grip of the Council_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Growing Agony_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Gruthkul's Pelt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Haemophilia_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hair Trigger_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hale Negator (1 Abyssal Socket)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hale Negator (2 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hall of Grandmasters_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hallowed Ground_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hand of Heresy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hand of the Fervent_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hand of the Lords_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hand of Thought and Motion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hand of Wisdom and Action_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hands of the High Templar_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hateforge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Haunting Memories_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hazardous Research_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Headhunter_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Healthy Mind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Heartbound Loop_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Heartbreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Heatshiver_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hegemony's Era_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Heretic's Veil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Heroic Tragedy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hezmana's Bloodlust_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hidden Potential_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hiltless_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hinekora's Sight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Honoured Alliance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Honourhome_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hopeshredder_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hotheaded_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Howlcrack_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hrimnor's Hymn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hrimnor's Resolve_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hrimsorrow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hungry Abyss_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hyaon's Fury_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hyperboreus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hyrri's Bite_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hyrri's Demise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hyrri's Ire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Hyrri's Truth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Icefang Orbit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Icetomb_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ichimonji_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ikiaho's Promise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Immortal Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Immutable Force_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impossible Escape_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Chaos)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Chaos, full power)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Cold)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Cold, full power)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Fire)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Fire, full power)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Lightning)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Lightning, full power)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Physical)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Impresence (Physical, full power)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Incandescent Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Indigon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Inertia_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Inevitability_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Inextricable Fate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Infernal Mantle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Infractem_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Infused Beachhead_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Innsbury Edge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Inpulsa's Broken Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Inspired Learning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Intuitive Leap_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Invictus Solaris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Inya's Epiphany_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Iron Commander_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ixchel's Temptation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Izaro's Dilemma_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Izaro's Turmoil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Jack, the Axe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Jaws of Agony_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Jiquani's Potential_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Jorrhast's Blacksteel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kahuturoa's Certainty_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kalandra's Touch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kalisa's Grace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaltenhalt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaltensoul_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Binding_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Command_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Primacy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Roots_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Sign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kaom's Way_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Karui Charge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Karui Ward_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Khatal's Geyser_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Khatal's Weeping_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kiara's Determination_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kikazaru_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kiloava's Bluster_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kingmaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kingsguard_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kintsugi_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kitava's Feast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kitava's Teachings_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kitava's Thirst_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kondo's Pride_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kongming's Stratagem_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kongor's Undying Rage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Kurgal's Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lakishu's Blade_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Last Resort_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lavianga's Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lavianga's Wisdom_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Law of the Wilds_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Le Heup of All_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Leadership's Price_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Leash of Oblation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Leer Cast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Legacy of Fury_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Legacy of the Rose_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Leper's Alms_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lethal Pride_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lifesprig_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Light of Lunaris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lightbane Raiment_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lightning Coil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lightpoacher (1 Abyssal Socket)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lightpoacher (2 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Limbsplit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lion's Roar_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lioneye's Fall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lioneye's Glare_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lioneye's Paws_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lioneye's Remorse_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lioneye's Vision_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lochtonial Caress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lord of Steel (Impale chance)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lord of Steel (Impale effect)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lord of Steel (Overwhelm)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Loreweave_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lori's Lantern_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lost Unity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Lycosidae_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maata's Teaching_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Machina Mitts_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maelström of Chaos_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mageblood_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Magna Eclipsis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mahuxotl's Machination_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malachai's Artifice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malachai's Awakening_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malachai's Loop_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malachai's Mark_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malachai's Simula_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malachai's Vision_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Malicious Intent_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maligaro's Cruelty_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maligaro's Lens_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maligaro's Restraint_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maligaro's Virtuosity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maloney's Mechanism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maloney's Nightfall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Manastorm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mantra of Flames_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mao Kun_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Map
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\March of the Legion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mark of Submission_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mark of the Doubting Knight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mark of the Elder_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mark of the Red Covenant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mark of the Shaper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Marohi Erqi_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Martial Artistry_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Martyr of Innocence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Martyr's Crown_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Marylene's Fallacy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mask of the Spirit Drinker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mask of the Stitched Demon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mask of the Tribunal (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mask of the Tribunal_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Matua Tupuna_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maven's Invitation
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maw of Conquest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Maw of Mischief_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Medved's Challenge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Megalomaniac_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Meginord's Girdle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Meginord's Vise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Melding of the Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Memory Vault_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mercenary's Lot_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Midnight Bargain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Might and Influence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Might in All Forms_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Might of the Meek_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mightflay_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Militant Faith_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mind of the Council_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mindspiral_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ming's Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mistwall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mjölner_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mokou's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mon'tregul's Grasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Moonbender's Wing_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Moonsorrow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mortem Morsu_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mother's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mutated Growth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mutewind Pennant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mutewind Seal_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mutewind Whispersteps_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Mystic Refractor_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nadir Mode_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nametaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Natural Affinity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Natural Hierarchy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nebulis (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nebulis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nebuloch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nevalius Inheritance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ngamahu Tiki_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ngamahu's Flame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ngamahu's Sign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Night's Hold_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nightgrip_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nimis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nomic's Storm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Null and Void_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Null's Inclination_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nuro's Harp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Nycta's Lantern_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Oba's Cursed Trove_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Obliteration_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Obscurantis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Offering to the Serpent_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Olesya's Delight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Olmec's Sanctum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Olroth's Charge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Olroth's Resolve_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Omen on the Winds_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Omeyocan_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ondar's Clasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\One With Nothing_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Oni-Goroshi_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Orb of Chance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Orbala's Stand_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Oriath's End_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Original Sin_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ornament of the East_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Oro's Sacrifice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Oskarm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Overwhelming Odds_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pacifism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Painseeker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Paradoxica_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perandus Blazon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perandus Signet_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perepiteia (Fractured)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perepiteia_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perfidy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perquil's Toe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Perseverance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pillar of the Caged God_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pillars of Arun_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Piscator's Vigil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pitch Darkness_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pledge of Hands_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Plume of Pursuit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Poacher's Aim_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Polaric Devastation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Poorjoy's Asylum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Powerlessness_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pragmatism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Praxis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Endurance and Frenzy Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Endurance and Power Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Endurance Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Endurance, Frenzy and Power Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Frenzy and Power Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Frenzy Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Precursor's Emblem (Power Charge)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Presence of Chayula_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Primordial Eminence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Primordial Harmony_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Primordial Might_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Prism Guardian_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Prismatic Eclipse_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Prismweave_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Profane Proxy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Progenesis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Prospero's Protection_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pugilist_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pure Talent_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Putembo's Meadow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Putembo's Mountain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Putembo's Valley_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pyre_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Pyroshock Clasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Qotra's Regulator_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Quecholli_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Queen of the Forest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Queen's Decree_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Quickening Covenant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Quill Rain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rain of Splinters_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rainbowstride_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rakiata's Dance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ralakesh's Impatience_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rapid Expansion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rashkaldor's Patience_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rat's Nest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rathpith Globe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rational Doctrine_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ravenous Passion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Razor of the Seventh Sun_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Reach of the Council_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Realmshaper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Reaper's Pursuit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rearguard_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rebuke of the Vaal_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Reckless Defence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Redbeak_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Redblade Band_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Redblade Banner_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Redblade Tramplers_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Reefbane_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Refuge in Isolation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Relentless Fury_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Relic of the Cycle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Relic of the Pact_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Remnant of Empires_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Repentance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Abyssus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Advancing Fortress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Alberon's Warpath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Allelopathy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Allure_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Alpha's Howl_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Ambu's Charge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Atziri's Acuity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Atziri's Foible_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Badge of the Brotherhood_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Bated Breath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Bitterdream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Blood Sacrifice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Blood Thorn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Bloodplay_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Bones of Ullr_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Cheap Construction_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Cold Iron Point_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Conqueror's Efficiency_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Cortex_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Covenant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Doedre's Damning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Dragonfang's Flight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Dreamfeather_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Duskdawn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Earendel's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Emberwake_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Eternity Shroud_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Farrul's Fur_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Fencoil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Forbidden Shako_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Fragile Bloom_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Frostbreath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Gifts from Above_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Grip of the Council_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Harvest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Headhunter_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Heartbreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Heatshiver_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Hinekora's Sight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Hotheaded_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Hyrri's Ire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Hyrri's Truth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Infractem_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Innsbury Edge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Inya's Epiphany_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Iron Commander_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Kalisa's Grace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Kaom's Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Karui Ward_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Kongor's Undying Rage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Last Resort_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Lavianga's Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Leer Cast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Lioneye's Paws_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Loreweave_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Malachai's Artifice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Maloney's Mechanism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Midnight Bargain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Mistwall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Nebulis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Oro's Sacrifice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Paradoxica_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Perfect Form_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Pillars of Arun_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Poorjoy's Asylum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Primordial Might_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Prismweave_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Pure Talent_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Quill Rain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Reckless Defence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Red Trail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Restless Ward_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Rumi's Concoction_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Shroud of the Lightless_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Siegebreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Sorrow of the Divine_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Soul Strike_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Soul Tether_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Stampede_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Tasalio's Sign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Tempestuous Steel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Three-step Assault_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Trypanon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Tukohama's Fortress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Tulfall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Twyzel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Ungil's Gauche_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Unstable Payload_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Veil of the Night_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Victario's Charity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Voideye_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Voidwalker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Volkuur's Guidance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Windripper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Wings of Entropy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Winterheart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Replica Witchfire Brew_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Retaliation Charm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Reverberation Rod_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rewritten Distant Memory_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Charge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Command_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Crest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Curse_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Hunt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Quills_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rigwald's Savagery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rime Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ring (base type)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ring of Blades_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rise of the Phoenix_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rive_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rolling Flames_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Romira's Banquet_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rotblood Promise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rotgut_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Roth's Reach_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Rumi's Concoction_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Runegraft of the Angler_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ryslatha's Coil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sacrificial Harvest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sacrificial Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sadima's Touch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saemus' Gift_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saffell's Frame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sandstorm Visage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saqawal's Flock_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saqawal's Nest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saqawal's Talons_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saqawal's Winds_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Saresh's Darkness_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Scaeva_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Scar of Fate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Scold's Bridle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Scornflux_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Scorpion's Call_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Screams of the Desiccated (1 shrine)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Screams of the Desiccated (2 shrines)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Seething Fury_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Self-Flagellation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sentari's Answer_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Servant of Decay_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Seven Teachings_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Seven-League Step_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Severed in Sleep_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shackles of the Wretched_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shade of Solaris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shadows and Dust_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shadowstitch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shaper's Seed_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shaper's Touch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shattered Chains_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shattershard_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shavronne's Pace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shavronne's Revelation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shavronne's Wrappings_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shimmeron_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shiversting_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shroud of the Lightless (2 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Shroud of the Lightless (3 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sibyl's Lament_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sidhebreath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Siegebreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sign of the Sin Eater_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Silverbough_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Silverbranch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Simulacrum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sin Trek_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sin's Rebirth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Singularity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sinvicta's Mettle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sire of Shards_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Skin of the Lords_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Skin of the Loyal_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Skirmish_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Skullhead_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Skyforth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Skysunder_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Slavedriver's Hand_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Slitherpinch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Slivers of Providence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Slivertongue_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Snakebite_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Snakepit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Solaris Lorica_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Solerai's Radiance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Solstice Vigil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Song of the Sirens_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Ascension_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Catcher_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Mantle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Ripper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Strike_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Taker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul Tether_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soul's Wick_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soulbound_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soulthirst_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Soulwrest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Southbound_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Speaker's Wreath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Spine of the First Claimant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Spinehail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Spire of Stone_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Spirit Guards_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Spirited Response_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Splinter of the Moon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Split Personality_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sporeguard_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Spreading Rot_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Springleaf_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Squirming Terror_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Star of Wraeclast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Starcaller_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Starforge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Starkonja's Head_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Starlight Chalice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stasis Prison_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Static Electricity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Steel Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Steelworm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Steppan Eard_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stone of Lazhwar_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Storm Cloud_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Storm Prison_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Storm Secret_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Storm's Gift_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stormcharger_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stormfire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stormseeker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stormshroud_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Story of the Vaal_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Stranglegasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\String of Servitude_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sublime Vision_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sudden Dawn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sudden Ignition_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sunblast_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Sundance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Surgebinders_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Survival Instincts_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Survival Secrets_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Survival Skills_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Survivor's Guilt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Svalinn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tabula Rasa_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tainted Pact_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Talisman of the Victor_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tanu Ahi_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Taproot_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Taryn's Shiver_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tasalio's Sign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Taste of Hate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tavukai_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tawhanuku's Timing_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tawhoa's Felling_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tear of Entropy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tear of Purity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tecrod's Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tempered Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tempered Mind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tempered Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tempering Orb_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Temptation Step_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Terminus Est_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\That Which Was Taken_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Admiral_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Adorned_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Anima Stone_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Annihilating Light_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Anticipation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Anvil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Apostate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Arkhon's Tools_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Ascetic_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Aylardex_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Balance of Terror_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Bandit Lord's Band_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Bane of Hope_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Baron_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Beachhead (High Tier)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Beachhead (Low Tier)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Beachhead (Mid Tier)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Beast Fur Shawl_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Black Cane_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Blood Dance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Blood of Innocence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Blood Reaper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Blood Thorn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Blue Dream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Blue Nightmare_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Brass Dome_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Brine Crown_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Bringer of Rain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Broken Crown_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Broken Elegy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Burden of Shadows_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Burden of Truth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Caged Mammoth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Celestial Brace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Coming Calamity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Consuming Dark_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Covenant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Coward's Trial_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Crimson Storm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Dancing Dervish_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Dark Monarch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Dark Seer (Life ES)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Dark Seer (Life Mana)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Dark Seer (Mana ES)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Deep One's Hide_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Desecrated Chalice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Devourer of Minds_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Devouring Diadem_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Druggery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Effigon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Embalmer_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Enmity Divine_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Ephemeral Bond_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Eternal Apple_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Eternal Struggle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Eternity Shroud_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Felbog Fang_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Flame of Hope_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Flawed Refuge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Fledgling_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Flow Untethered_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Formless Flame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Formless Inferno_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Fourth Vow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Fracturing Spinner_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Front Line_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Fulcrum_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Ghastly Theatre_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Gluttonous Tide_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Goddess Bound_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Goddess Scorned_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Golden Charlatan_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Golden Rule_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Green Dream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Green Nightmare_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Grey Spire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Grey Wind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Gull_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Halcyon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Hallowed Monarch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Hand of Phrecia_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Harvest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Hateful Accuser_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Hidden Blade_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Highwayman_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Hungry Loop_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Ignomon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Immortal Will_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Infinite Pursuit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Interrogation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Iron Fortress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Iron Mass_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Ivory Tower_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Jinxed Juju_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Light of Meaning_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Living Blade_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Long Winter_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Magnate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Monastery Bell_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Nomad_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Oak_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Oppressor_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Original Scripture_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Overflowing Chalice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Pandemonius_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Pariah_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Perandus Manor_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Perandus Pact_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Peregrine_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Perfect Form_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Poet's Pen_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Poised Prism_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Power and the Promise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Primordial Chain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Princess_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Putrid Cloister_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Queen's Hunger_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Queller of Minds_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Rat Cage_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Red Dream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Red Nightmare_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Red Trail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Restless Ward_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Retch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Rippling Thoughts_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Sacred Chalice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Sands of Time_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Saviour_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Scales of Justice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Scourge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Screaming Eagle_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Searing Touch_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Selfish Shepherd_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Shattered Divinity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Siege_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Signal Fire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Snowblind Grace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Sorrow of the Divine_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Squire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Stampede_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Stormheart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Sundered Will_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Supreme Truth_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Surging Thoughts_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Surrender_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tactician_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Taming_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tempest Rising_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tempest's Binding_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tempest's Liberation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tempestuous Steel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tempest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Three Dragons_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tides of Time_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Torrent's Reclamation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Tower of Ordeals_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Trickster's Smile_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Twilight Temple_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Unseen Hue_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Unshattered Will_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Untouched Soul_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Utmost_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Vertex_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Vigil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Vinktar Square_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Warden's Brand_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Wasp Nest_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Whispering Ice_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Will of Esh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Will of Tul_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Will of Uul-Netol_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Will of Xoph_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Winds of Fate_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Wise Oak_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Writhing Jar_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\The Yielding Mortality_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thief's Torment_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thirst for Horrors_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thousand Ribbons_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thousand Teeth Temu_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thread of Hope (Massive Ring)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thread of Hope_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Three-step Assault_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thrillsteel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thunderfist_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Thundersight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tidebreaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Timeclasp_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Timetwist_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tinkerskin_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Titucius' Span_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\To Dust_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tombfist (1 Abyssal Socket)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tombfist (2 Abyssal Sockets)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Torchoak Step_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Touch of Anguish_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Transcendent Flesh_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Transcendent Mind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Transcendent Spirit_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tremor Rod_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Triad Grip_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Triumvirate Authority (3 random modifiers)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Triumvirate Authority (4 random modifiers)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Trolltimber Spire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Trypanon_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tukohama's Fortress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tulborn_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Tulfall_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Twisted Distant Memory_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Twyzel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ulaman's Gaze_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Umbilicus Immortalis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Unending Hunger_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ungil's Gauche_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ungil's Harmony_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\United in Dream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Unlight Extant_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Unnatural Instinct_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Unstable Payload_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Untainted Paradise_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Unyielding Flame_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Usurper's Penance_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Utula's Hunger_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Uul-Netol's Embrace_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Uul-Netol's Kiss_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Uul-Netol's Vow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Uzaza's Meadow_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Uzaza's Mountain_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Uzaza's Valley_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vaal Caress_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vaal Sentencing_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Valako's Sign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Valyrium_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Varunastra_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vaults of Atziri_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Veil of the Night_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Venarius' Astrolabe_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Venopuncture_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ventor's Gamble_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Veruso's Ambition_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Veruso's Battering Rams_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vessel of Vinktar (Added Lightning Damage to Attacks)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vessel of Vinktar (Added Lightning Damage to Spells)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vessel of Vinktar (Lightning Penetration)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vessel of Vinktar (Physical Damage Converted to Lightning)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vessel of Vinktar (Shock Effect and Proliferation)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Victario's Acuity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Victario's Charity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Victario's Flight_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Victario's Influence_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Violent Dead_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Viridi's Veil_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Viridian Jewel_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vis Mortis_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vivinsect_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vix Lunaris_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vixen's Entrapment_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voice of the Storm_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voices_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Void Battery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voidbringer_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voideye_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voidfletcher_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voidforge_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voidheart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voidhome_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voidwalker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Volkuur's Guidance (Cold)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Volkuur's Guidance (Fire)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Volkuur's Guidance (Lightning)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voll's Devotion_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voll's Protector_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voll's Vision_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Volley Fire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Voltaxic Rift_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vorana's March_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vorana's Preparation_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Vulconus_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wake of Destruction_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wanderlust_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Warlord's Reach_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Warped Timepiece_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Warrior's Legacy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Warrior's Tale_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Watcher's Eye_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Weight of Sin_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Weight of the Empire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wellwater Phylactery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Whakatutuki o Matua_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Whakawairua Tuahu_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wheel of the Stormsail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Whispers of Infinity_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\White Wind_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wideswing_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Widowhail_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Widowmaker_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wildfire_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wildslash_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Willclash_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Willowgift_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wilma's Requital_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Windripper_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Winds of Change_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Windscream_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wine of the Prophet_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wing of the Wyvern_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wings of Entropy_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Winter Burial_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Winter's Bounty_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Winterheart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Winterweave (fated)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Winterweave_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Witchbane_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Witchfire Brew_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Witchhunter's Judgment_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Woespike_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wondertrap_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wraithlord_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wreath of Phrecia_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wurm's Molt_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Wyrmsign_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Xirgil's Crank_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Xoph's Blood_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Xoph's Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Xoph's Inception_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Xoph's Nurture_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Yaomac's Accord_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ylfeban's Trickery_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Ynda's Stand_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Yoke of Suffering_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Yriel's Fostering (Rhoa)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Yriel's Fostering (Snake)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Yriel's Fostering (Ursa)_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zahndethus' Cassock_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zeel's Amplifier_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zerphi's Heart_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zerphi's Last Breath_orig.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\alch.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\alt.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\aug.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\bauble.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\blessed.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chance.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chaos.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chisel.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chrome.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\divine.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\eternal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\exalted.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\fusing.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\gcp.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\jewellers.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\mirror.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\portal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\regal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\regret.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\scour.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\scrap.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\transmute.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\vaal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\whetstone.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\wisdom.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\loading.gif
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\WpfAnimatedGif.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.lref
