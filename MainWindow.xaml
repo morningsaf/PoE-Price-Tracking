@@ -10,8 +10,8 @@
         Width="1000" Height="800"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        AllowsTransparency="False"
-        Background="White"
+        AllowsTransparency="True"
+        Background="Transparent"
         ResizeMode="NoResize">
     <Window.Resources>
         <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
@@ -42,77 +42,95 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>  
-            <RowDefinition Height="Auto"/> 
-            <RowDefinition Height="*"/>     
-        </Grid.RowDefinitions>
+    <Border Background="White" 
+            CornerRadius="12"
+            BorderBrush="#E0E0E0"
+            BorderThickness="1"
+            Padding="0,0,0,8">
 
-        <Border Grid.Row="0"
-                Background="#F0F0F0"
-                Padding="12,8"
-                MouseLeftButtonDown="Window_MouseLeftButtonDown">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>  
+                <RowDefinition Height="Auto"/> 
+                <RowDefinition Height="*"/>     
+            </Grid.RowDefinitions>
 
-                <TextBlock Grid.Column="0" 
-                           Text="PoE Price Tracking"
-                           FontSize="13" FontWeight="SemiBold"
-                           VerticalAlignment="Center"/>
+            <Border Grid.Row="0"
+                    Background="#F0F0F0"
+                    Padding="12,8"
+                    CornerRadius="12,12,0,0"
+                    MouseLeftButtonDown="Window_MouseLeftButtonDown">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="2" Orientation="Horizontal">
-                    <Button Content="─" Width="28" Height="28"
-                            FontSize="12"
-                            Background="Transparent"
-                            BorderThickness="0"
-                            Cursor="Hand"
-                            Click="MinimizeWindow_Click"/>
-                    <Button Content="✕" Width="28" Height="28"
-                            FontSize="12"
-                            Background="Transparent"
-                            BorderThickness="0"
-                            Cursor="Hand"
-                            Click="CloseWindow_Click"/>
+                    <TextBlock Grid.Column="0" 
+                               Text="PoE Price Tracking"
+                               FontSize="13" FontWeight="SemiBold"
+                               VerticalAlignment="Center"/>
+
+                    <StackPanel Grid.Column="2" Orientation="Horizontal">
+                        <Button Content="─" Width="28" Height="28"
+                                FontSize="12"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Click="MinimizeWindow_Click"/>
+                        <Button Content="✕" Width="28" Height="28"
+                                FontSize="12"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Cursor="Hand"
+                                Click="CloseWindow_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border Grid.Row="1" 
+                    Background="#F5F5F5"
+                    Padding="8,4"
+                    BorderBrush="#E0E0E0"
+                    BorderThickness="0,0,0,1">
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="⟳" Width="28" Height="28"
+                            Margin="0,0,4,0"
+                            ToolTip="Обновить цены"
+                            Click="RefreshPrices_Click"/>
+                    <Button Content="▢" Width="28" Height="28"
+                            Margin="0,0,4,0"
+                            ToolTip="Свернуть в мини-окно"/>
+                    <Button Content="👤" Width="28" Height="28"
+                            Margin="0,0,4,0"
+                            ToolTip="Аккаунт"/>
+                    <Button Content="?" Width="28" Height="28"
+                            ToolTip="Справка"/>
                 </StackPanel>
-            </Grid>
-        </Border>
+            </Border>
 
-        <Border Grid.Row="1" 
-                Background="#F5F5F5"
-                Padding="8,4"
-                BorderBrush="#E0E0E0"
-                BorderThickness="0,0,0,1">
-            <StackPanel Orientation="Horizontal">
-                <Button Content="⟳" Width="28" Height="28"
-                        Margin="0,0,4,0"
-                        ToolTip="Обновить цены"
-                        Click="RefreshPrices_Click"/>
-                <Button Content="▢" Width="28" Height="28"
-                        Margin="0,0,4,0"
-                        ToolTip="Свернуть в мини-окно"/>
-                <Button Content="👤" Width="28" Height="28"
-                        Margin="0,0,4,0"
-                        ToolTip="Аккаунт"/>
-                <Button Content="?" Width="28" Height="28"
-                        ToolTip="Справка"/>
-            </StackPanel>
-        </Border>
-
-    <TabControl Grid.Row="2">
-        <TabItem Header="General">
-            <views:GeneralView x:Name="GeneralViewControl"/>
-        </TabItem>
-        <TabItem Header="Choose Items">
-            <views:ItemCatalogView x:Name="ItemCatalogView"/>
-        </TabItem>
-        <TabItem Header="Settings">
-            <!-- Пустая вкладка -->
-        </TabItem>
-    </TabControl>
-    </Grid>
+            <Border Grid.Row="2"
+                    CornerRadius="0,0,12,12"
+                    Background="White"
+                    ClipToBounds="True">
+                <TabControl Background="Transparent"
+                            BorderThickness="0">
+                    <TabControl.Resources>
+                        <Style TargetType="TabPanel">
+                            <Setter Property="Margin" Value="0,0,0,0"/>
+                        </Style>
+                    </TabControl.Resources>
+                    <TabItem Header="General">
+                        <views:GeneralView x:Name="GeneralViewControl"/>
+                    </TabItem>
+                    <TabItem Header="Choose Items">
+                        <views:ItemCatalogView x:Name="ItemCatalogView"/>
+                    </TabItem>
+                    <TabItem Header="Settings">
+                    </TabItem>
+                </TabControl>
+            </Border>
+        </Grid>
+    </Border>
 </Window>

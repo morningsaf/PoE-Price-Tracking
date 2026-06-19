@@ -7,7 +7,6 @@
         <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
         <local:StringToImageSourceConverter x:Key="StringToImage"/>
     </UserControl.Resources>
-    
     <DataGrid x:Name="MainTable" 
               AutoGenerateColumns="False"
               CanUserAddRows="False"

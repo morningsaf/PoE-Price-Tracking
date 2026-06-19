@@ -15,6 +15,8 @@ using System.IO;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Drawing;
+using System.Runtime.InteropServices;
+using System.Windows.Interop;
 
 
 namespace PoE_Price_Tracking;
@@ -27,9 +29,28 @@ public partial class MainWindow : Window
     private AppDbContext _db;
     private List<Item> _allItems = new();
     private string _baseDir = "";
+    [DllImport("gdi32.dll")]
+    private static extern IntPtr CreateRoundRectRgn(int x1, int y1, int x2, int y2, int cx, int cy);
+
+    [DllImport("user32.dll")]
+    private static extern int SetWindowRgn(IntPtr hwnd, IntPtr hRgn, bool bRedraw);
+
+    [DllImport("gdi32.dll")]
+    private static extern int DeleteObject(IntPtr hObject);
+
+    private const int CORNER_RADIUS = 12;
     public MainWindow()
     {
         InitializeComponent();
+        this.SourceInitialized += (s, e) =>
+        {
+            IntPtr hwnd = new WindowInteropHelper(this).Handle;
+            int width = (int)this.ActualWidth;
+            int height = (int)this.ActualHeight;
+            IntPtr region = CreateRoundRectRgn(0, 0, width + 1, height + 1, CORNER_RADIUS, CORNER_RADIUS);
+            SetWindowRgn(hwnd, region, true);
+            DeleteObject(region);
+        };
         _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         _db = new AppDbContext();
         _allItems = _db.Items.OrderBy(i => i.Name).ToList();
@@ -206,12 +227,12 @@ public partial class MainWindow : Window
         if (e.ClickCount == 1)
             this.DragMove();
     }
-    
+
     private void MinimizeWindow_Click(object sender, RoutedEventArgs e)
     {
         this.WindowState = WindowState.Minimized;
     }
-    
+
     private void CloseWindow_Click(object sender, RoutedEventArgs e)
     {
         Application.Current.Shutdown();
