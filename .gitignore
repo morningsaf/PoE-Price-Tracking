@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+assets/
+*.db
+*.json
+__pycache__/
+*.pyc
+*.tmp
+*.cache

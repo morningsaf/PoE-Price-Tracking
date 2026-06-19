@@ -7,8 +7,7 @@
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
         Title="PoE Price Tracking"
         Width="800" Height="600"
-        WindowStartupLocation="CenterScreen"
-        ResizeMode="CanMinimize">
+        WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
         <Style TargetType="Button">
@@ -53,7 +52,6 @@
                 SelectionMode="Single"
                 IsHitTestVisible="True"
                 Focusable="False"
-                ScrollViewer.VerticalScrollBarVisibility="Hidden"
                 GridLinesVisibility="None"
                 Background="White"
                 RowHeight="40"
@@ -102,9 +100,12 @@
                                 <StackPanel Orientation="Horizontal"
                                             VerticalAlignment="Center"
                                             HorizontalAlignment="Right">
-                                    <TextBlock Text="{Binding Price}" 
-                                               VerticalAlignment="Center"
-                                               Margin="0,0,4,0"/>
+                                    <TextBlock  VerticalAlignment="Center"
+                                                Margin="0,0,4,0">
+                                            <Run Text="{Binding TrendText}" Foreground="{Binding TrendColor}"/>
+                                            <Run Text=" "/>
+                                            <Run Text="{Binding AmountText}"/>
+                                    </TextBlock>
                                     <Image Source="{Binding CurrencyIcon}" 
                                            Width="20" Height="20"
                                            Stretch="Uniform"

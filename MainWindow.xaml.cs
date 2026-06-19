@@ -51,11 +51,15 @@ public partial class MainWindow : Window
                 var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id).OrderByDescending(p => p.Id).FirstOrDefault();
                 if(lastPrice != null)
                 {
-                    tracked.Price = $"(Outdated)  {lastPrice.Price} {lastPrice.Currency}";
+                    tracked.TrendText = "(Outdated)";
+                    tracked.TrendColor = "Black";
+                    tracked.AmountText = $"{lastPrice.Price}";
                     tracked.CurrencyIcon = $"assets/images/currency/{lastPrice.Currency}.png";
                 }
                 else
                 {
+                    tracked.TrendText = "";
+                    tracked.AmountText = "";
                     tracked.Price = "";
                     tracked.CurrencyIcon = "";
                 }
@@ -114,7 +118,8 @@ public partial class MainWindow : Window
             foreach (var item in trackedItems)
             {
                 item.IsLoading = true;
-                item.Price = "";            
+                item.TrendText = "";
+                item.AmountText = "";          
                 item.CurrencyIcon = "";
             }
             await FetchPricesStreaming(names, price =>
@@ -122,12 +127,16 @@ public partial class MainWindow : Window
                 var item = trackedItems.FirstOrDefault(t => t.Name == price.Name);
                 if (item != null)
                 {
-                    item.Price = $"{price.Trend switch
-                    {
-                        "up" => "🠕 ",
-                        "down" => "🠗 ",
-                        _ => "➔ "
-                    }}{price.Amount}";
+                    string trend = price.Trend ?? "";
+                    if (string.IsNullOrEmpty(trend) || trend == "+0.00%" || trend == "0%")
+                        item.TrendColor = "Gray";
+                    else if (trend.StartsWith("-"))
+                        item.TrendColor = "Red";
+                    else
+                        item.TrendColor = "Green";
+
+                    item.TrendText = trend;
+                    item.AmountText = $"{price.Amount}";
                     item.CurrencyIcon = $"assets/images/currency/{price.Currency}.png";
                     item.IsLoading = false;
                 }
@@ -158,11 +167,15 @@ public partial class MainWindow : Window
                 var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id).OrderByDescending(p => p.Id).FirstOrDefault();
                 if(lastPrice != null)
                 {
-                    tracked.Price = $"(Outdated)  {lastPrice.Price}";
+                    tracked.TrendText = "(Outdated)";
+                    tracked.TrendColor = "Black";
+                    tracked.AmountText = $"{lastPrice.Price}";
                     tracked.CurrencyIcon = $"assets/images/currency/{lastPrice.Currency}.png";
                 }
                 else
                 {
+                    tracked.TrendText = "";
+                    tracked.AmountText = "";
                     tracked.Price = "";
                     tracked.CurrencyIcon = "";
                 }
@@ -195,6 +208,26 @@ public class TrackedItem : INotifyPropertyChanged
         get => _isLoading;
         set { _isLoading = value; OnPropertyChanged(); }
     }
+    private string _trendText = "";
+    public string TrendText
+    {
+        get => _trendText;
+        set { _trendText = value; OnPropertyChanged(); }
+    }
+
+    private string _amountText = "";
+    public string AmountText
+    {
+        get => _amountText;
+        set { _amountText = value; OnPropertyChanged(); }
+    }
+
+    private string _trendColor = "Gray";
+    public string TrendColor
+    {
+        get => _trendColor;
+        set { _trendColor = value; OnPropertyChanged(); }
+    }
     public event PropertyChangedEventHandler? PropertyChanged;
 
     private void OnPropertyChanged([CallerMemberName] string? propertyName = null)
@@ -206,6 +239,9 @@ public class TrackedItem : INotifyPropertyChanged
     {
         return new TrackedItem
         {
+            TrendText = "",
+            AmountText = "",
+            TrendColor = "Black",
             Name = item.Name,
             Icon = item.Icon,
             Price = "",

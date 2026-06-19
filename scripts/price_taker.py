@@ -4,6 +4,7 @@ import sys
 import json
 from pathlib import Path
 import time
+
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from models import get_session, Items, Price
 from currency_rate import fetch_currency_rates
@@ -71,13 +72,13 @@ for name in names:
 
     chaos_equal, prev_chaos_equal = save_price(name, price_data["amount"], price_data["currency"])
     if prev_chaos_equal is None:
-        trend = "same"
+        trend = ""
     elif chaos_equal > prev_chaos_equal:
-        trend = "up"
+        trend = f"+{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 4)}%"
     elif chaos_equal < prev_chaos_equal:
-        trend = "down"
+        trend = f"{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 4)}%"
     else:
-        trend = "same"
+        trend = "+0.00%"
     result = {"name": name, "amount": price_data["amount"], "currency" : price_data["currency"], "trend" : trend}
     print(json.dumps(result), flush=True)
     time.sleep(2)

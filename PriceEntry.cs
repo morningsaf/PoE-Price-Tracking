@@ -14,6 +14,6 @@ namespace PoE_Price_Tracking
         public string Currency { get; set; } = "";
 
         [JsonPropertyName("trend")]
-        public string Trend { get; set; } = "";
+        public string? Trend { get; set; } = "";
     }
 }
