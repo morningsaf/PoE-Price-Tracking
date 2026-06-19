@@ -7,7 +7,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:gif="http://wpfanimatedgif.codeplex.com"
         Title="PoE Price Tracking"
-        Width="800" Height="600"
+        Width="1000" Height="800"
         WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
@@ -79,7 +79,7 @@
             <views:GeneralView x:Name="GeneralViewControl"/>
         </TabItem>
         <TabItem Header="Choose Items">
-            <views:ItemCatalogView/>
+            <views:ItemCatalogView x:Name="ItemCatalogView"/>
         </TabItem>
         <TabItem Header="Settings">
             <!-- Пустая вкладка -->

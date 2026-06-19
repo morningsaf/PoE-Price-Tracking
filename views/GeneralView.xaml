@@ -24,7 +24,19 @@
               BorderThickness="0">
         <DataGrid.Resources>
             <Style TargetType="DataGridCell">
+                <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Padding" Value="0"/>
                 <Setter Property="IsHitTestVisible" Value="False"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="DataGridCell">
+                            <Border Background="Transparent" BorderThickness="0">
+                                <ContentPresenter/>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
             </Style>
             <Style TargetType="DataGridRow">
                 <Setter Property="IsHitTestVisible" Value="False"/>

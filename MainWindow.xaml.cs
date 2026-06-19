@@ -22,56 +22,35 @@ namespace PoE_Price_Tracking;
 public partial class MainWindow : Window
 {
     private TrackedItemsService _trackedService;
-    private List<string> _trackedNames;
+    private List<string> _trackedNames = new();
     private List<TrackedItem>? trackedItems;
     private AppDbContext _db;
-    private List<Item> _allItems;
+    private List<Item> _allItems = new();
     private string _baseDir = "";
     public MainWindow()
     {
         InitializeComponent();
+        _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         _db = new AppDbContext();
-        string _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         _allItems = _db.Items.OrderBy(i => i.Name).ToList();
         foreach (var item in _allItems)
         {
-            item.Icon = System.IO.Path.Combine(_baseDir, "assets", "images", "items",$"{item.Name}_orig.png");
+            item.Icon = System.IO.Path.Combine(_baseDir, "assets", "images", "items", $"{item.Name}_orig.png");
         }
-        string filePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tracked_items.json");
+
+        string filePath = System.IO.Path.Combine(_baseDir, "tracked_items.json");
         _trackedService = new TrackedItemsService(filePath);
         _trackedNames = _trackedService.Load();
-        if (_trackedNames.Count > 0)
-        {
-            var itemsToTrack = _allItems.Where(item => _trackedNames.Contains(item.Name)).ToList();
-            trackedItems = itemsToTrack.Select(item => TrackedItem.FromItem(item)).ToList();
-            foreach(var tracked in trackedItems)
-            {
-                var catalogItem = _allItems.FirstOrDefault(i => i.Name == tracked.Name);
-                if(catalogItem == null) continue;
 
-                var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id).OrderByDescending(p => p.Id).FirstOrDefault();
-                if(lastPrice != null)
-                {
-                    tracked.TrendText = "(Outdated)";
-                    tracked.TrendColor = "Black";
-                    tracked.AmountText = $"{lastPrice.Price}";
-                    tracked.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", lastPrice.Currency + ".png");
-                }
-                else
-                {
-                    tracked.TrendText = "";
-                    tracked.AmountText = "";
-                    tracked.Price = "";
-                    tracked.CurrencyIcon = "";
-                }
-                tracked.IsLoading = false;
-            }
-            GeneralViewControl.MainTable.ItemsSource = trackedItems;
-        }
-        else
+        ItemCatalogView!.Initialize(_allItems, _trackedNames);
+        RefreshTrackedTable();
+
+        ItemCatalogView!.CartChanged += () =>
         {
-            GeneralViewControl.MainTable.ItemsSource = new List<TrackedItem>();
-        }
+            _trackedNames = new List<string>(ItemCatalogView.GetSelectedNames());
+            _trackedService.Save(_trackedNames);
+            RefreshTrackedTable();
+        };
     }
 
     private async Task FetchPricesStreaming(List<string> itemNames, Action<PriceEntry> onPriceReceived)
@@ -184,6 +163,42 @@ public partial class MainWindow : Window
             }
             GeneralViewControl.MainTable.ItemsSource = trackedItems;
         }
+    }
+
+    private void RefreshTrackedTable()
+    {
+        if (_trackedNames.Count == 0)
+        {
+            GeneralViewControl.MainTable.ItemsSource = new List<TrackedItem>();
+            return;
+        }
+
+        var itemsToTrack = _allItems.Where(item => _trackedNames.Contains(item.Name)).ToList();
+        trackedItems = itemsToTrack.Select(item => TrackedItem.FromItem(item)).ToList();
+
+        foreach (var tracked in trackedItems)
+        {
+            var catalogItem = _allItems.FirstOrDefault(i => i.Name == tracked.Name);
+            if (catalogItem == null) continue;
+
+            var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id).OrderByDescending(p => p.Id).FirstOrDefault();
+            if (lastPrice != null)
+            {
+                tracked.TrendText = "(Outdated)";
+                tracked.TrendColor = "Black";
+                tracked.AmountText = $"{lastPrice.Price}";
+                tracked.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", lastPrice.Currency + ".png");
+            }
+            else
+            {
+                tracked.TrendText = "";
+                tracked.AmountText = "";
+                tracked.CurrencyIcon = "";
+            }
+            tracked.IsLoading = false;
+        }
+
+        GeneralViewControl.MainTable.ItemsSource = trackedItems;
     }
 }
 public class TrackedItem : INotifyPropertyChanged

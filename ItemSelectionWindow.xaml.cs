@@ -242,5 +242,4 @@ namespace PoE_Price_Tracking
             RestoreSelection();
         }
     }
-
 }
