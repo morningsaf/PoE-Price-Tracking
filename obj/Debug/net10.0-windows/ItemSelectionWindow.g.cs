@@ -99,7 +99,7 @@ namespace PoE_Price_Tracking {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PoE Price Tracking;V1.0.0.0;component/itemselectionwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PoE Price Tracking;component/itemselectionwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ItemSelectionWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

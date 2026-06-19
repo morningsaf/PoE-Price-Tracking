@@ -1574,3 +1574,7 @@ D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\loading.gif
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\WpfAnimatedGif.dll
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.lref
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.baml

@@ -26,15 +26,16 @@ public partial class MainWindow : Window
     private List<TrackedItem>? trackedItems;
     private AppDbContext _db;
     private List<Item> _allItems;
+    private string _baseDir = "";
     public MainWindow()
     {
         InitializeComponent();
         _db = new AppDbContext();
-        string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+        string _baseDir = AppDomain.CurrentDomain.BaseDirectory;
         _allItems = _db.Items.OrderBy(i => i.Name).ToList();
         foreach (var item in _allItems)
         {
-            item.Icon = System.IO.Path.Combine(baseDir, "assets", "images", "items",$"{item.Name}_orig.png");
+            item.Icon = System.IO.Path.Combine(_baseDir, "assets", "images", "items",$"{item.Name}_orig.png");
         }
         string filePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "tracked_items.json");
         _trackedService = new TrackedItemsService(filePath);
@@ -54,7 +55,7 @@ public partial class MainWindow : Window
                     tracked.TrendText = "(Outdated)";
                     tracked.TrendColor = "Black";
                     tracked.AmountText = $"{lastPrice.Price}";
-                    tracked.CurrencyIcon = $"assets/images/currency/{lastPrice.Currency}.png";
+                    tracked.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", lastPrice.Currency + ".png");
                 }
                 else
                 {
@@ -65,11 +66,11 @@ public partial class MainWindow : Window
                 }
                 tracked.IsLoading = false;
             }
-            MainTable.ItemsSource = trackedItems;
+            GeneralViewControl.MainTable.ItemsSource = trackedItems;
         }
         else
         {
-            MainTable.ItemsSource = new List<TrackedItem>();
+            GeneralViewControl.MainTable.ItemsSource = new List<TrackedItem>();
         }
     }
 
@@ -137,7 +138,7 @@ public partial class MainWindow : Window
 
                     item.TrendText = trend;
                     item.AmountText = $"{price.Amount}";
-                    item.CurrencyIcon = $"assets/images/currency/{price.Currency}.png";
+                    item.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", price.Currency + ".png");
                     item.IsLoading = false;
                 }
             });
@@ -170,7 +171,7 @@ public partial class MainWindow : Window
                     tracked.TrendText = "(Outdated)";
                     tracked.TrendColor = "Black";
                     tracked.AmountText = $"{lastPrice.Price}";
-                    tracked.CurrencyIcon = $"assets/images/currency/{lastPrice.Currency}.png";
+                    tracked.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", lastPrice.Currency + ".png");
                 }
                 else
                 {
@@ -181,7 +182,7 @@ public partial class MainWindow : Window
                 }
                 tracked.IsLoading = false;
             }
-            MainTable.ItemsSource = trackedItems;
+            GeneralViewControl.MainTable.ItemsSource = trackedItems;
         }
     }
 }
