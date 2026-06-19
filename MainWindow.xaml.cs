@@ -200,6 +200,22 @@ public partial class MainWindow : Window
 
         GeneralViewControl.MainTable.ItemsSource = trackedItems;
     }
+
+    private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+    {
+        if (e.ClickCount == 1)
+            this.DragMove();
+    }
+    
+    private void MinimizeWindow_Click(object sender, RoutedEventArgs e)
+    {
+        this.WindowState = WindowState.Minimized;
+    }
+    
+    private void CloseWindow_Click(object sender, RoutedEventArgs e)
+    {
+        Application.Current.Shutdown();
+    }
 }
 public class TrackedItem : INotifyPropertyChanged
 {
