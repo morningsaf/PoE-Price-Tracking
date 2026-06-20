@@ -1578,3 +1578,6 @@ D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.baml
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.baml
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\PlayfairDisplay-VariableFont_wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Ubuntu-Regular.ttf

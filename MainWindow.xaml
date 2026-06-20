@@ -69,7 +69,8 @@
 
                     <TextBlock Grid.Column="0" 
                                Text="PoE Price Tracking"
-                               FontSize="13" FontWeight="SemiBold"
+                               FontFamily = "assets/fonts/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display"
+                               FontSize="15" FontWeight="Bold"
                                VerticalAlignment="Center"/>
 
                     <StackPanel Grid.Column="2" Orientation="Horizontal">

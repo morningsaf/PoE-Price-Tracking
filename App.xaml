@@ -4,6 +4,97 @@
              xmlns:local="clr-namespace:PoE_Price_Tracking"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="assets/fonts/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+
+        <Style TargetType="Control">
+            <Setter Property="FontFamily" Value="assets/fonts/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+
+        <Style TargetType="TabPanel">
+            <Setter Property="Margin" Value="8,6,8,6"/>
+        </Style>
+
+        <Style TargetType="TabControl">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabControl">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Border Grid.Row="0"
+                                    Background="#EEEEEE"
+                                    CornerRadius="8,8,0,0"
+                                    Padding="12,8,12,0">
+                                <TabPanel x:Name="HeaderPanel"
+                                          Panel.ZIndex="1"
+                                          IsItemsHost="True"/>
+                            </Border>
+                            <Border Grid.Row="1"
+                                    Background="White"
+                                    BorderBrush="#E0E0E0"
+                                    BorderThickness="1,0,1,1"
+                                    CornerRadius="0,0,8,8">
+                                <ContentPresenter ContentSource="SelectedContent"/>
+                            </Border>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="TabItem">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="20,8"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TabItem">
+                        <Border Margin="4,0" Background="Transparent">
+                            <Border x:Name="tabBorder"
+                                    Background="#E8E8E8"
+                                    BorderBrush="#E0E0E0"
+                                    BorderThickness="1,1,1,0"
+                                    CornerRadius="6,6,0,0"
+                                    Padding="{TemplateBinding Padding}">
+                                <TextBlock x:Name="tabText"
+                                           Text="{TemplateBinding Header}"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           Foreground="#777"/>
+                            </Border>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="tabBorder" 
+                                        Property="Background" Value="#DDD"/>
+                                <Setter TargetName="tabText" 
+                                        Property="Foreground" Value="#555"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter TargetName="tabBorder" 
+                                        Property="Background" Value="White"/>
+                                <Setter TargetName="tabBorder" 
+                                        Property="BorderBrush" Value="#E0E0E0"/>
+                                <Setter TargetName="tabText" 
+                                        Property="Foreground" Value="#A0825A"/>
+                                <Setter TargetName="tabText" 
+                                        Property="FontWeight" Value="Regular"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
 </Application>

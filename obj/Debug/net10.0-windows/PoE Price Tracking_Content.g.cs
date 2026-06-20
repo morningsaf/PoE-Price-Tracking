@@ -8,6 +8,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("poe.db")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/playfairdisplay-variablefont_wght.ttf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/ubuntu-regular.ttf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/alch.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/alt.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/aug.png")]

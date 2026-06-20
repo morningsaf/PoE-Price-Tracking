@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PoE Price Tracking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fd55acd9befa900bdd5bfaacb54764eee363352")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4444b286d5e7ff5c4b5682d932d22a0731998679")]
 [assembly: System.Reflection.AssemblyProductAttribute("PoE Price Tracking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PoE Price Tracking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
