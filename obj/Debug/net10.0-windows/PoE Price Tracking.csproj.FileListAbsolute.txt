@@ -3,7 +3,6 @@ D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.deps.json
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.runtimeconfig.json
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.dll
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.pdb
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.baml
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.cache
@@ -17,8 +16,6 @@ D:\PoE Price Tracking\obj\Debug\net10.0-windows\refint\PoE Price Tracking.dll
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.pdb
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.genruntimeconfig.cache
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\ref\PoE Price Tracking.dll
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\ItemSelectionWindow.baml
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\ItemSelectionWindow.g.cs
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\Humanizer.dll
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Build.Framework.dll
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.dll
@@ -1577,7 +1574,14 @@ D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.baml
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.g.cs
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.baml
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.baml
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\PlayfairDisplay-VariableFont_wght.ttf
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Ubuntu-Regular.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\AdventPro-VariableFont_wdth,wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Jura-VariableFont_wght.ttf
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.baml
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Roboto-VariableFont_wdth,wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\info.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\minimize.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\refresh.png

@@ -85,7 +85,8 @@ namespace PoE_Price_Tracking.views
                     Content = displayNames[i],
                     Width = 80, Height = 26,
                     Margin = new Thickness(2),
-                    Tag = categories[i]
+                    Tag = categories[i],
+                    Style = (Style)FindResource("SubCategoryButtonStyle")
                 };
                 btn.MouseEnter += CategoryButton_MouseEnter;
                 btn.MouseLeave += CategoryButton_MouseLeave;
@@ -121,8 +122,7 @@ namespace PoE_Price_Tracking.views
                 Button subBtn = new Button
                 {
                     Content = displayName,
-                    Width = 100, Height = 26,
-                    Margin = new Thickness(2)
+                    Style = (Style)FindResource("SubCategoryButtonStyle")
                 };
                 subBtn.Click += (s, args) =>
                 {

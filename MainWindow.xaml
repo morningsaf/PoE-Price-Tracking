@@ -45,7 +45,7 @@
     <Border Background="White" 
             CornerRadius="12"
             BorderBrush="#E0E0E0"
-            BorderThickness="1"
+            BorderThickness="1,1,1,0"
             Padding="0,0,0,8">
 
         <Grid>
@@ -68,7 +68,7 @@
                     </Grid.ColumnDefinitions>
 
                     <TextBlock Grid.Column="0" 
-                               Text="PoE Price Tracking"
+                               Text="PoE Price Tracker"
                                FontFamily = "assets/fonts/PlayfairDisplay-VariableFont_wght.ttf#Playfair Display"
                                FontSize="15" FontWeight="Bold"
                                VerticalAlignment="Center"/>
@@ -94,20 +94,30 @@
                     Background="#F5F5F5"
                     Padding="8,4"
                     BorderBrush="#E0E0E0"
-                    BorderThickness="0,0,0,1">
-                <StackPanel Orientation="Horizontal">
-                    <Button Content="⟳" Width="28" Height="28"
-                            Margin="0,0,4,0"
-                            ToolTip="Обновить цены"
-                            Click="RefreshPrices_Click"/>
-                    <Button Content="▢" Width="28" Height="28"
-                            Margin="0,0,4,0"
-                            ToolTip="Свернуть в мини-окно"/>
-                    <Button Content="👤" Width="28" Height="28"
-                            Margin="0,0,4,0"
-                            ToolTip="Аккаунт"/>
-                    <Button Content="?" Width="28" Height="28"
-                            ToolTip="Справка"/>
+                    BorderThickness="0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Width="33" Height="33"
+                            Padding="0"
+                            Margin="4,0,4,0"
+                            ToolTip="Refresh prices"
+                            Click="RefreshPrices_Click"
+                            Style="{StaticResource PanelButton}">
+                            <Image Source="assets/images/icons/refresh.png" Width="22" Height="22" Stretch="Uniform"/>
+                    </Button>
+                    <Button Width="33" Height="33"
+                            Padding="0"
+                            Margin="4,0,4,0"
+                            ToolTip="Minimize window"
+                            Style="{StaticResource PanelButton}">
+                            <Image Source="assets/images/icons/minimize.png" Width="22" Height="22" Stretch="Uniform"/>
+                    </Button>
+                    <Button Width="33" Height="33"
+                            Padding="0"
+                            Margin="4,0,4,0"
+                            ToolTip="Info"
+                            Style="{StaticResource PanelButton}">
+                            <Image Source="assets/images/icons/info.png" Width="22" Height="22" Stretch="Uniform"/>
+                    </Button>
                 </StackPanel>
             </Border>
 
@@ -125,7 +135,7 @@
                     <TabItem Header="General">
                         <views:GeneralView x:Name="GeneralViewControl"/>
                     </TabItem>
-                    <TabItem Header="Choose Items">
+                    <TabItem Header="Select Items">
                         <views:ItemCatalogView x:Name="ItemCatalogView"/>
                     </TabItem>
                     <TabItem Header="Settings">

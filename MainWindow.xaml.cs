@@ -149,43 +149,6 @@ public partial class MainWindow : Window
         }
     }
 
-    private void SelectItems_Click(object sender, RoutedEventArgs e)
-    {
-        var selectedNames = new List<string>(_trackedNames);
-        var window = new ItemSelectionWindow(_allItems, selectedNames);
-        window.Owner = this;
-        if (window.ShowDialog() == true)
-        {
-            _trackedNames = new List<string>(window.GetSelectedNames());
-            _trackedService.Save(_trackedNames);
-            var itemsToTrack = _allItems.Where(item => _trackedNames.Contains(item.Name)).ToList();
-            trackedItems = itemsToTrack.Select(item => TrackedItem.FromItem(item)).ToList();
-            foreach(var tracked in trackedItems)
-            {
-                var catalogItem = _allItems.FirstOrDefault(i => i.Name == tracked.Name);
-                if(catalogItem == null) continue;
-
-                var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id).OrderByDescending(p => p.Id).FirstOrDefault();
-                if(lastPrice != null)
-                {
-                    tracked.TrendText = "(Outdated)";
-                    tracked.TrendColor = "Black";
-                    tracked.AmountText = $"{lastPrice.Price}";
-                    tracked.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", lastPrice.Currency + ".png");
-                }
-                else
-                {
-                    tracked.TrendText = "";
-                    tracked.AmountText = "";
-                    tracked.Price = "";
-                    tracked.CurrencyIcon = "";
-                }
-                tracked.IsLoading = false;
-            }
-            GeneralViewControl.MainTable.ItemsSource = trackedItems;
-        }
-    }
-
     private void RefreshTrackedTable()
     {
         if (_trackedNames.Count == 0)

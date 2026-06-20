@@ -18,6 +18,7 @@
               GridLinesVisibility="None"
               Background="White"
               RowHeight="40"
+              Margin="4,0,4,0"
               HeadersVisibility="None"
               RowHeaderWidth="0"
               BorderThickness="0">

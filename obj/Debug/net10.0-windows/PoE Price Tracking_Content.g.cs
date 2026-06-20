@@ -8,7 +8,10 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("poe.db")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/adventpro-variablefont_wdth,wght.ttf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/jura-variablefont_wght.ttf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/playfairdisplay-variablefont_wght.ttf")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/roboto-variablefont_wdth,wght.ttf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/fonts/ubuntu-regular.ttf")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/alch.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/alt.png")]
@@ -35,6 +38,9 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/vaal.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/whetstone.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/wisdom.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/info.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/minimize.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/refresh.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/items/abberath\'s%20hooves_orig.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/items/abberath\'s%20horn_orig.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/items/abhorrent%20interrogation_orig.png")]

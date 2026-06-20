@@ -26,6 +26,26 @@
                     </Style>
                 </TextBox.Resources>
             </TextBox>
+            <TextBlock Text="Enter item name..."
+                       Foreground="LightGray"
+                       FontSize="14"
+                       Padding="12,6,0,0"
+                       IsHitTestVisible="False">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=SearchBox}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Text, ElementName=SearchBox}" Value="{x:Null}">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+
             <Popup x:Name="SuggestionsPopup" 
                    PlacementTarget="{Binding ElementName=SearchBox}"
                    Placement="Bottom"
@@ -33,12 +53,19 @@
                    AllowsTransparency="True"
                    Width="{Binding ActualWidth, ElementName=SearchBox}">
                 <Border Background="White" 
-                        BorderBrush="LightGray" 
+                        BorderBrush="#E0E0E0" 
                         BorderThickness="1"
-                        CornerRadius="4"
-                        MaxHeight="150">
+                        CornerRadius="8"
+                        MaxHeight="150"
+                        MinWidth="200">
+                    <Border.Effect>
+                        <DropShadowEffect ShadowDepth="4" 
+                                          BlurRadius="12" 
+                                          Color="#20000000"/>
+                    </Border.Effect>
                     <ListBox x:Name="SuggestionsListBox"
                              BorderThickness="0"
+                             Margin="4"
                              MouseLeftButtonUp="SuggestionsListBox_MouseLeftButtonUp">
                         <ListBox.ItemTemplate>
                             <DataTemplate>
@@ -79,6 +106,8 @@
                                             BorderBrush="Transparent"
                                             BorderThickness="2"
                                             CornerRadius="4"
+                                            Margin="2"
+                                            Padding="2"
                                             MouseLeftButtonUp="Card_Click"
                                             Tag="{Binding}">
                                         <ContentPresenter/>
@@ -87,10 +116,10 @@
                                         <Trigger Property="IsSelected" Value="True">
                                             <Setter TargetName="border" 
                                                     Property="BorderBrush" 
-                                                    Value="#2196F3"/>
+                                                    Value="#C8A84E"/>
                                             <Setter TargetName="border" 
                                                     Property="Background" 
-                                                    Value="#E3F2FD"/>
+                                                    Value="#FFF8E1"/>
                                         </Trigger>
                                     </ControlTemplate.Triggers>
                                 </ControlTemplate>
@@ -110,7 +139,9 @@
                         <Border Width="160" Height="80" 
                                 Margin="4"
                                 Background="WhiteSmoke"
-                                CornerRadius="4">
+                                CornerRadius="7"
+                                BorderBrush="#E0E0E0"
+                                BorderThickness="1">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="48"/>
@@ -124,7 +155,7 @@
                                            Text="{Binding Name}"
                                            VerticalAlignment="Center"
                                            TextWrapping="Wrap"
-                                           FontSize="11"/>
+                                           FontSize="12"/>
                             </Grid>
                         </Border>
                     </DataTemplate>
@@ -144,7 +175,7 @@
                     </Grid.RowDefinitions>
 
                     <TextBlock Grid.Row="0" 
-                               Text="Выбрано:" 
+                               Text="Tracked:" 
                                FontWeight="Bold" 
                                Margin="0,0,0,8"/>
 
@@ -180,7 +211,7 @@
                     </ListBox>
 
                     <Button Grid.Row="2" 
-                            Content="Очистить всё"
+                            Content="Clear all"
                             Margin="0,8,0,0"
                             Height="26"
                             Click="ClearCart_Click"/>
