@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
+using System.Windows.Media;
 
 namespace PoE_Price_Tracking.views
 {
@@ -40,9 +41,8 @@ namespace PoE_Price_Tracking.views
         private List<Item> _filteredItems;
         private List<string> _selectedNames;
         private Popup? _currentPopup;
-
         public event Action? CartChanged;
-
+        private List<Item> _defaultItems = new();
         public ItemCatalogView()
         {
             InitializeComponent();
@@ -58,7 +58,8 @@ namespace PoE_Price_Tracking.views
         {
             _allItems = allItems;
             _selectedNames = new List<string>(trackedNames);
-            _filteredItems = allItems.Take(50).ToList();
+            _defaultItems = allItems.Take(50).ToList();
+            _filteredItems = _defaultItems;
             CartListBox.ItemsSource = null;
             CartListBox.ItemsSource = _selectedNames;
             ItemsListBox.ItemsSource = null;
@@ -145,8 +146,9 @@ namespace PoE_Price_Tracking.views
 
             if (string.IsNullOrEmpty(filter))
             {
-                ItemsListBox.ItemsSource = _filteredItems;
+                ItemsListBox.ItemsSource = _defaultItems;
                 SuggestionsPopup.IsOpen = false;
+                RestoreSelection();
                 return;
             }
 
@@ -161,9 +163,10 @@ namespace PoE_Price_Tracking.views
             {
                 SuggestionsPopup.IsOpen = false;
             }
-
-            ItemsListBox.ItemsSource = _allItems.Where(i => i.Name.ToLower().Contains(filter)).Take(30).ToList();
+            _filteredItems = _allItems.Where(i => i.Name.ToLower().Contains(filter)).Take(30).ToList();
+            ItemsListBox.ItemsSource = _filteredItems;
             RestoreSelection();
+            
         }
 
         private void SuggestionsListBox_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

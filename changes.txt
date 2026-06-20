@@ -1,5 +1,9 @@
+0.3b
+-Fixed seacrh string logic
+-Changes much colors everywhere to golden
+
 0.31a
--Some colors fixes
+-Some colors fixes(#E8D07A)
 
 0.3a
 -Added Scroll style
