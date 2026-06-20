@@ -1,3 +1,14 @@
+0.31a
+-Some colors fixes
+
+0.3a
+-Added Scroll style
+-Remove files for old window
+-Added placholder for search
+-Added new filter style
+-Added panel buttons icons and style
+-Rework cart style
+
 0.3
--Added Font Style
--Added TabSelect Styles
+-Added Font style
+-Added TabSelect style
