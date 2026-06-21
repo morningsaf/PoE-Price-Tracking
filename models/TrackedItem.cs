@@ -74,7 +74,7 @@ namespace PoE_Price_Tracking
                 TrendText = "",
                 AmountText = "",
                 TrendColor = "Black",
-                Name = $"{item.Name} ({league})",
+                Name = item.Name,
                 Icon = item.Icon,
                 League = league,
                 Price = "",

@@ -1,4 +1,5 @@
 using System.Windows.Controls;
+using System.Windows.Media;
 
 namespace PoE_Price_Tracking.views
 {
@@ -14,7 +15,6 @@ namespace PoE_Price_Tracking.views
             if (LeagueComboBox.SelectedItem is ComboBoxItem item)
             {
                 string league = item.Content.ToString()!;
-                // Уведомить MainWindow о смене лиги
                 LeagueChanged?.Invoke(league);
             }
         }
@@ -25,7 +25,7 @@ namespace PoE_Price_Tracking.views
         {
             foreach (ComboBoxItem item in LeagueComboBox.Items)
             {
-                if (item.Content.ToString() == league)
+                if (item.Content.ToString() == league) 
                 {
                     LeagueComboBox.SelectedItem = item;
                     break;

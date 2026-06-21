@@ -1,3 +1,11 @@
+0.4b
+-Add Status Bar
+-ComboBox Style
+-Cleaner design code
+
+0.4a
+-Fix MainTable with changes league in settings
+
 0.4
 -Added Setting
 

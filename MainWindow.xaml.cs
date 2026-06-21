@@ -65,10 +65,12 @@ public partial class MainWindow : Window
         UserData userData = _trackedService.Load();
         _trackedNames = userData.TrackedItems;
         _currentLeague = userData.League;
+        StatusLeague.Text = _currentLeague;
         SettingsViewControl.SetLeague(_currentLeague);
         SettingsViewControl.LeagueChanged += (league) =>
         {
             _currentLeague = league;
+            StatusLeague.Text = _currentLeague;
             foreach (var tracked in trackedItems ?? new())
             {
                 tracked.League = league;
@@ -148,7 +150,7 @@ public partial class MainWindow : Window
             }
             await FetchPricesStreaming(names, price =>
             {
-                var item = trackedItems.FirstOrDefault(t => t.Name.StartsWith(price.Name + " ("));
+                var item = trackedItems.FirstOrDefault(t => t.Name == price.Name);
                 if (item != null)
                 {
                     string trend = price.Trend ?? "";
