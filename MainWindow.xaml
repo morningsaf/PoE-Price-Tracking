@@ -139,6 +139,7 @@
                         <views:ItemCatalogView x:Name="ItemCatalogView"/>
                     </TabItem>
                     <TabItem Header="Settings">
+                        <views:SettingsView x:Name="SettingsViewControl"/>
                     </TabItem>
                 </TabControl>
             </Border>

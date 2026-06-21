@@ -25,6 +25,7 @@ class Price(Base):
     currency = Column(String(50), nullable=False)
     chaos_equal = Column(Float, nullable=True)
     prev_chaos_equal = Column(Float, nullable=True)
+    league = Column(String(100), nullable=False, default="Standard")
     recorded_at = Column(String(50), default=lambda: datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"))
     item = relationship("Items", back_populates="prices")
 

@@ -1585,3 +1585,5 @@ D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Roboto-VariableFont
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\info.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\minimize.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\refresh.png
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.g.cs

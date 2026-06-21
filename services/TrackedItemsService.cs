@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
 
@@ -12,21 +11,20 @@ namespace PoE_Price_Tracking
             _filePath = filePath;
         }
 
-        public List<string> Load()
+        public UserData Load()
         {
-            if(!File.Exists(_filePath)) return new List<string>();
+            if(!File.Exists(_filePath)) return new UserData();
             string json = File.ReadAllText(_filePath);
-            return JsonSerializer.Deserialize<List<string>>(json) ?? new List<string>();
+            var data = JsonSerializer.Deserialize<UserData>(json);
+            return data ?? new UserData();
         }
 
-        public void Save(List<string> names)
+        public void Save(UserData data)
         {
             string? dir = Path.GetDirectoryName(_filePath);
             if(!string.IsNullOrEmpty(dir) && !Directory.Exists(dir)) Directory.CreateDirectory(dir);
-            string json = JsonSerializer.Serialize(names);
+            string json = JsonSerializer.Serialize(data);
             File.WriteAllText(_filePath, json);
         }
-
-
     }
 }

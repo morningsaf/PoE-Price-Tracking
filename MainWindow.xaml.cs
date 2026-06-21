@@ -29,6 +29,7 @@ public partial class MainWindow : Window
     private AppDbContext _db;
     private List<Item> _allItems = new();
     private string _baseDir = "";
+    private string _currentLeague = "Standard";
     [DllImport("gdi32.dll")]
     private static extern IntPtr CreateRoundRectRgn(int x1, int y1, int x2, int y2, int cx, int cy);
 
@@ -61,15 +62,32 @@ public partial class MainWindow : Window
 
         string filePath = System.IO.Path.Combine(_baseDir, "tracked_items.json");
         _trackedService = new TrackedItemsService(filePath);
-        _trackedNames = _trackedService.Load();
-
+        UserData userData = _trackedService.Load();
+        _trackedNames = userData.TrackedItems;
+        _currentLeague = userData.League;
+        SettingsViewControl.SetLeague(_currentLeague);
+        SettingsViewControl.LeagueChanged += (league) =>
+        {
+            _currentLeague = league;
+            UserData data = new UserData
+            {
+                League = _currentLeague,
+                TrackedItems = _trackedNames
+            };
+            _trackedService.Save(data);
+        };
         ItemCatalogView!.Initialize(_allItems, _trackedNames);
         RefreshTrackedTable();
 
         ItemCatalogView!.CartChanged += () =>
         {
             _trackedNames = new List<string>(ItemCatalogView.GetSelectedNames());
-            _trackedService.Save(_trackedNames);
+            UserData data = new UserData
+            {
+                League = _currentLeague,
+                TrackedItems = _trackedNames
+            };
+            _trackedService.Save(data);
             RefreshTrackedTable();
         };
     }
@@ -82,7 +100,7 @@ public partial class MainWindow : Window
         var psi = new ProcessStartInfo
         {
             FileName = "python",
-            Arguments = $"scripts/price_taker.py \"{input}\"",
+            Arguments = $"scripts/price_taker.py --items \"{input}\" --league {_currentLeague}",
             RedirectStandardOutput = true,
             UseShellExecute = false,
             CreateNoWindow = true,
@@ -120,7 +138,7 @@ public partial class MainWindow : Window
             {
                 item.IsLoading = true;
                 item.TrendText = "";
-                item.AmountText = "";          
+                item.AmountText = "";
                 item.CurrencyIcon = "";
             }
             await FetchPricesStreaming(names, price =>
@@ -209,10 +227,10 @@ public class TrackedItem : INotifyPropertyChanged
 
     private string _currencyIcon = "";
     public string CurrencyIcon
-{
-    get => _currencyIcon;
-    set { _currencyIcon = value; OnPropertyChanged(); }
-}
+    {
+        get => _currencyIcon;
+        set { _currencyIcon = value; OnPropertyChanged(); }
+    }
     public string Price
     {
         get => _price;

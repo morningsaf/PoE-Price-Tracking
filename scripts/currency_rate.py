@@ -4,7 +4,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from scripts import config
 
-def fetch_currency_rates():
+def fetch_currency_rates(league):
     session = requests.Session()
     session.trust_env = False
     session.headers.update(
@@ -17,7 +17,7 @@ def fetch_currency_rates():
         }
     )
 
-    response = session.get(f"https://poe.ninja/poe1/api/economy/exchange/current/overview?league={config.LEAGUE}&type=Currency")
+    response = session.get(f"https://poe.ninja/poe1/api/economy/exchange/current/overview?league={league}&type=Currency")
     data = response.json()
     rates = {"chaos": 1.0}
     needed = {"divine", "exalted", "mirror", "annulment", "regal", "vaal", "alchemy", "scour",
