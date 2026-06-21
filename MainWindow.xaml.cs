@@ -23,6 +23,7 @@ namespace PoE_Price_Tracking;
 
 public partial class MainWindow : Window
 {
+    private MiniWindow? _miniWindow;
     private TrackedItemsService _trackedService;
     private List<string> _trackedNames = new();
     private List<TrackedItem>? trackedItems;
@@ -69,6 +70,7 @@ public partial class MainWindow : Window
         SettingsViewControl.SetLeague(_currentLeague);
         SettingsViewControl.LeagueChanged += (league) =>
         {
+            _miniWindow?.SetLeague(league);
             _currentLeague = league;
             StatusLeague.Text = _currentLeague;
             foreach (var tracked in trackedItems ?? new())
@@ -226,7 +228,6 @@ public partial class MainWindow : Window
         Application.Current.Shutdown();
     }
 
-    private MiniWindow? _miniWindow;
 
     private void Minimize_Click(object sender, RoutedEventArgs e)
     {
@@ -235,7 +236,8 @@ public partial class MainWindow : Window
             _miniWindow = new MiniWindow();
             _miniWindow.Closed += (s, args) => _miniWindow = null;
         }
-
+        _miniWindow.SetLeague(_currentLeague);
+        _miniWindow.RefreshAction = () => RefreshPrices_Click(null!, null!);
         _miniWindow.MiniTable.ItemsSource = trackedItems;
         _miniWindow.Show();
         this.Hide();

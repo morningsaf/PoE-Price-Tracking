@@ -39,6 +39,7 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/whetstone.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/currency/wisdom.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/info.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/maximize.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/minimize.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/icons/refresh.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/images/items/abberath\'s%20hooves_orig.png")]

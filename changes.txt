@@ -1,3 +1,6 @@
+0.5
+-Added mini Window
+
 0.4b
 -Add Status Bar
 -ComboBox Style

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-POESESSID = 'd05c8d91524561d98e1024a99dd712d2'
+POESESSID = 'cc0d72fce5d7f0d1faf098894fc5260c'
 MAIN_DIR = Path(__file__).parent.parent
 WIKI_PATH = "https://www.poewiki.net/wiki"
 CATEGORIES = {

@@ -5,6 +5,7 @@ namespace PoE_Price_Tracking
 {
     public partial class MiniWindow : Window
     {
+        public Action? RefreshAction { get; set; }
         public MiniWindow()
         {
             InitializeComponent();
@@ -13,13 +14,18 @@ namespace PoE_Price_Tracking
 
         private void Refresh_Click(object sender, RoutedEventArgs e)
         {
-            // Будет привязано из MainWindow
+            RefreshAction?.Invoke();
         }
 
         private void Restore_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
             Application.Current.MainWindow.Show();
+        }
+
+        public void SetLeague(string league)
+        {
+            StatusLeague.Text = league;
         }
     }
 }
