@@ -1587,3 +1587,5 @@ D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\minimize.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\refresh.png
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.baml
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MiniWindow.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MiniWindow.g.cs

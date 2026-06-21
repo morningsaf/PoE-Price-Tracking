@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\PoE Price Tracking\App.xaml
-4-901376250
+5-510672017
 1434-517130714
-17-1683923991
+18-2051591270
 225540372011
-MainWindow.xaml;views\GeneralView.xaml;views\ItemCatalogView.xaml;views\SettingsView.xaml;
+MainWindow.xaml;MiniWindow.xaml;views\GeneralView.xaml;views\ItemCatalogView.xaml;views\SettingsView.xaml;
 
 False
 

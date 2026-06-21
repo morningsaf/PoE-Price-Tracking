@@ -225,4 +225,19 @@ public partial class MainWindow : Window
     {
         Application.Current.Shutdown();
     }
+
+    private MiniWindow? _miniWindow;
+
+    private void Minimize_Click(object sender, RoutedEventArgs e)
+    {
+        if (_miniWindow == null)
+        {
+            _miniWindow = new MiniWindow();
+            _miniWindow.Closed += (s, args) => _miniWindow = null;
+        }
+
+        _miniWindow.MiniTable.ItemsSource = trackedItems;
+        _miniWindow.Show();
+        this.Hide();
+    }
 }

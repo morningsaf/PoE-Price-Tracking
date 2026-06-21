@@ -109,6 +109,7 @@
                             Padding="0"
                             Margin="4,0,4,0"
                             ToolTip="Minimize window"
+                            Click="Minimize_Click"
                             Style="{StaticResource PanelButton}">
                             <Image Source="assets/images/icons/minimize.png" Width="22" Height="22" Stretch="Uniform"/>
                     </Button>
