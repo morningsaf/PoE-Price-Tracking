@@ -69,12 +69,17 @@ public partial class MainWindow : Window
         SettingsViewControl.LeagueChanged += (league) =>
         {
             _currentLeague = league;
-            UserData data = new UserData
+            foreach (var tracked in trackedItems ?? new())
             {
-                League = _currentLeague,
-                TrackedItems = _trackedNames
-            };
+                tracked.League = league;
+                string cleanName = tracked.Name.Contains(" (") 
+                    ? tracked.Name.Substring(0, tracked.Name.LastIndexOf(" (")) 
+                    : tracked.Name;
+                tracked.Name = $"{cleanName} ({league})";
+            }
+            UserData data = new UserData { League = league, TrackedItems = _trackedNames };
             _trackedService.Save(data);
+            RefreshTrackedTable();
         };
         ItemCatalogView!.Initialize(_allItems, _trackedNames);
         RefreshTrackedTable();
@@ -94,7 +99,7 @@ public partial class MainWindow : Window
 
     private async Task FetchPricesStreaming(List<string> itemNames, Action<PriceEntry> onPriceReceived)
     {
-
+        
         string input = string.Join(",", itemNames);
 
         var psi = new ProcessStartInfo
@@ -131,7 +136,7 @@ public partial class MainWindow : Window
     private async void RefreshPrices_Click(object sender, RoutedEventArgs e)
     {
         if (trackedItems == null || trackedItems.Count == 0) return;
-        var names = trackedItems.Select(t => t.Name).ToList();
+        var names = _trackedNames;
         try
         {
             foreach (var item in trackedItems)
@@ -143,7 +148,7 @@ public partial class MainWindow : Window
             }
             await FetchPricesStreaming(names, price =>
             {
-                var item = trackedItems.FirstOrDefault(t => t.Name == price.Name);
+                var item = trackedItems.FirstOrDefault(t => t.Name.StartsWith(price.Name + " ("));
                 if (item != null)
                 {
                     string trend = price.Trend ?? "";
@@ -175,15 +180,14 @@ public partial class MainWindow : Window
             return;
         }
 
-        var itemsToTrack = _allItems.Where(item => _trackedNames.Contains(item.Name)).ToList();
-        trackedItems = itemsToTrack.Select(item => TrackedItem.FromItem(item)).ToList();
+        var newTrackedItems = new List<TrackedItem>();
 
-        foreach (var tracked in trackedItems)
+        foreach (var name in _trackedNames)
         {
-            var catalogItem = _allItems.FirstOrDefault(i => i.Name == tracked.Name);
+            var catalogItem = _allItems.FirstOrDefault(i => i.Name == name);
             if (catalogItem == null) continue;
-
-            var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id).OrderByDescending(p => p.Id).FirstOrDefault();
+            var tracked = TrackedItem.FromItem(catalogItem, _currentLeague);
+            var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id && p.League == _currentLeague).OrderByDescending(p => p.Id).FirstOrDefault();
             if (lastPrice != null)
             {
                 tracked.TrendText = "(Outdated)";
@@ -198,8 +202,9 @@ public partial class MainWindow : Window
                 tracked.CurrencyIcon = "";
             }
             tracked.IsLoading = false;
+            newTrackedItems.Add(tracked);
         }
-
+        trackedItems = newTrackedItems;
         GeneralViewControl.MainTable.ItemsSource = trackedItems;
     }
 
@@ -217,70 +222,5 @@ public partial class MainWindow : Window
     private void CloseWindow_Click(object sender, RoutedEventArgs e)
     {
         Application.Current.Shutdown();
-    }
-}
-public class TrackedItem : INotifyPropertyChanged
-{
-    public string Name { get; set; } = "";
-    public string Icon { get; set; } = "";
-    private string _price = "Загрузка...";
-
-    private string _currencyIcon = "";
-    public string CurrencyIcon
-    {
-        get => _currencyIcon;
-        set { _currencyIcon = value; OnPropertyChanged(); }
-    }
-    public string Price
-    {
-        get => _price;
-        set { _price = value; OnPropertyChanged(); }
-    }
-    private bool _isLoading = true;
-    public bool IsLoading
-    {
-        get => _isLoading;
-        set { _isLoading = value; OnPropertyChanged(); }
-    }
-    private string _trendText = "";
-    public string TrendText
-    {
-        get => _trendText;
-        set { _trendText = value; OnPropertyChanged(); }
-    }
-
-    private string _amountText = "";
-    public string AmountText
-    {
-        get => _amountText;
-        set { _amountText = value; OnPropertyChanged(); }
-    }
-
-    private string _trendColor = "Gray";
-    public string TrendColor
-    {
-        get => _trendColor;
-        set { _trendColor = value; OnPropertyChanged(); }
-    }
-    public event PropertyChangedEventHandler? PropertyChanged;
-
-    private void OnPropertyChanged([CallerMemberName] string? propertyName = null)
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-    }
-
-    public static TrackedItem FromItem(Item item)
-    {
-        return new TrackedItem
-        {
-            TrendText = "",
-            AmountText = "",
-            TrendColor = "Black",
-            Name = item.Name,
-            Icon = item.Icon,
-            Price = "",
-            IsLoading = true,
-            CurrencyIcon = ""
-        };
     }
 }

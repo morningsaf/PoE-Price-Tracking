@@ -22,5 +22,8 @@ namespace PoE_Price_Tracking
 
         [Column("currency")]
         public string Currency { get; set; } = "";
+
+        [Column("league")]
+        public string League { get; set; } = "Standard";
     }
 }
