@@ -23,6 +23,7 @@ namespace PoE_Price_Tracking;
 
 public partial class MainWindow : Window
 {
+    private bool _isBanned = false;
     private Task? _currentRefreshTask;
     private CancellationTokenSource? _refreshCts;
     private MiniWindow? _miniWindow;
@@ -157,6 +158,7 @@ public partial class MainWindow : Window
 
     private async void RefreshPrices_Click(object sender, RoutedEventArgs e)
     {
+        _isBanned = false;
         if (trackedItems == null || trackedItems.Count == 0) return;
         var names = _trackedNames;
         try
@@ -170,6 +172,17 @@ public partial class MainWindow : Window
             }
             await FetchPricesStreaming(names, price =>
             {
+                if (_isBanned) return;
+                if (price.Error == "ban")
+                {
+                    _isBanned = true;
+                    Dispatcher.Invoke(() => 
+                    {
+                        StatusParser.Text = $"Banned for {price.RetryAfter} seconds";
+                        StatusParser.Foreground = new SolidColorBrush(Colors.Red);
+                    });
+                    return;
+                }
                 var item = trackedItems.FirstOrDefault(t => t.Name == price.Name);
                 if (item != null)
                 {
@@ -196,6 +209,11 @@ public partial class MainWindow : Window
                     item.IsLoading = false;
                 }
             });
+            if(!_isBanned)
+            {
+                StatusParser.Text = "OK";
+                StatusParser.Foreground = new SolidColorBrush(Colors.Green);
+            }
         }
         catch (Exception ex)
         {

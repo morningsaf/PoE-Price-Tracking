@@ -41,6 +41,9 @@ def take_search_id(name):
         "sort": {"price": "asc"},
     }
     response = session.post(post_url, json=body,timeout=5)
+    if response.status_code == 429:
+        retry_after = response.headers.get("Retry-After", "unknown")
+        return {"error": "ban", "retry_after": retry_after}
     return response.json()
 
 def take_price(data, name):
@@ -68,6 +71,11 @@ def save_price(item_name, amount, currency):
 time.sleep(2)
 for name in names:
     pos = take_search_id(name)
+    if "error" in pos:
+        print(json.dumps({"error": "ban", "retry_after": pos["retry_after"]}), flush=True)
+        sys.exit(0)
+        continue
+
     price_data = take_price(pos, name)
     if price_data is None:
         result = ({"name": name, "amount": None, "currency": None, "trend": "none"})

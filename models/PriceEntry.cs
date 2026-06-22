@@ -15,5 +15,10 @@ namespace PoE_Price_Tracking
 
         [JsonPropertyName("trend")]
         public string? Trend { get; set; } = "";
+
+        [JsonPropertyName("error")]
+        public string? Error { get; set; }
+        [JsonPropertyName("retry_after")]
+        public string? RetryAfter { get; set; }
     }
 }
