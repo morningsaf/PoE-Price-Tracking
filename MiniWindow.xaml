@@ -125,7 +125,7 @@
                     </Style>
                 </DataGrid.Resources>
                 <DataGrid.Columns>
-                    <!-- Название -->
+
                     <DataGridTemplateColumn Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
@@ -136,7 +136,6 @@
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
-                    <!-- Цена (тренд + число + иконка валюты + спиннер) -->
                     <DataGridTemplateColumn Width="120">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
@@ -144,8 +143,26 @@
                                     <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
                                            Width="32"
                                            Height="32"
-                                           Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibility}}"
-                                           HorizontalAlignment="Right"/>
+                                           HorizontalAlignment="Right">
+                                           <Image.Style>
+                                                <Style TargetType="Image">
+                                                    <Setter Property="RenderTransform">
+                                                        <Setter.Value>
+                                                            <TranslateTransform X="0" Y="0"/>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding IsLoading}" Value="False">
+                                                            <Setter Property="RenderTransform">
+                                                                <Setter.Value>
+                                                                    <TranslateTransform X="1000" Y="0"/>
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Image.Style>
+                                    </Image>
                                     <StackPanel Orientation="Horizontal"
                                                 VerticalAlignment="Center"
                                                 HorizontalAlignment="Right">

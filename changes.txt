@@ -1,3 +1,6 @@
+0.5b
+-Solve async spinners
+
 0.5a
 -Solve multi launch python script
 -Remove (outdated)
