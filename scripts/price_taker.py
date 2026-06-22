@@ -65,7 +65,7 @@ def save_price(item_name, amount, currency):
     session.close()
     return chaos_equal, prev_chaos_equal
 
-time.sleep(1)
+time.sleep(2)
 for name in names:
     pos = take_search_id(name)
     price_data = take_price(pos, name)
@@ -78,9 +78,9 @@ for name in names:
     if prev_chaos_equal is None:
         trend = ""
     elif chaos_equal > prev_chaos_equal:
-        trend = f"+{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 4)}%"
+        trend = f"+{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 2)}%"
     elif chaos_equal < prev_chaos_equal:
-        trend = f"{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 4)}%"
+        trend = f"{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 2)}%"
     else:
         trend = "+0.00%"
     result = {"name": name, "amount": price_data["amount"], "currency" : price_data["currency"], "trend" : trend}

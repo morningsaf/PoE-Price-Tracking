@@ -23,6 +23,8 @@ namespace PoE_Price_Tracking;
 
 public partial class MainWindow : Window
 {
+    private Task? _currentRefreshTask;
+    private CancellationTokenSource? _refreshCts;
     private MiniWindow? _miniWindow;
     private TrackedItemsService _trackedService;
     private List<string> _trackedNames = new();
@@ -87,6 +89,7 @@ public partial class MainWindow : Window
         };
         ItemCatalogView!.Initialize(_allItems, _trackedNames);
         RefreshTrackedTable();
+        RefreshPrices_Click(null!, null!);
 
         ItemCatalogView!.CartChanged += () =>
         {
@@ -103,38 +106,53 @@ public partial class MainWindow : Window
 
     private async Task FetchPricesStreaming(List<string> itemNames, Action<PriceEntry> onPriceReceived)
     {
-        
-        string input = string.Join(",", itemNames);
-
-        var psi = new ProcessStartInfo
+        _refreshCts?.Cancel();
+        if (_currentRefreshTask != null)
         {
-            FileName = "python",
-            Arguments = $"scripts/price_taker.py --items \"{input}\" --league {_currentLeague}",
-            RedirectStandardOutput = true,
-            UseShellExecute = false,
-            CreateNoWindow = true,
-            RedirectStandardError = true
-        };
-
-        using var process = Process.Start(psi)!;
-        using var reader = process.StandardOutput;
-        using var errorReader = process.StandardError;
-        string? line;
-        while ((line = await reader.ReadLineAsync()) != null)
+            await _currentRefreshTask;
+        }
+        _refreshCts = new CancellationTokenSource();
+        var token = _refreshCts.Token;
+        _currentRefreshTask = Task.Run(async () =>
         {
-            var price = JsonSerializer.Deserialize<PriceEntry>(line);
-            if (price != null)
+            string input = string.Join(",", itemNames);
+
+            var psi = new ProcessStartInfo
             {
-                Dispatcher.Invoke(() => onPriceReceived(price));
-            }
-        }
-        string error = await errorReader.ReadToEndAsync();
-        process.WaitForExit();
-        if (!string.IsNullOrEmpty(error))
-        {
-            Dispatcher.Invoke(() => MessageBox.Show("Ошибка Python:\n" + error));
-        }
+                FileName = "python",
+                Arguments = $"scripts/price_taker.py --items \"{input}\" --league {_currentLeague}",
+                RedirectStandardOutput = true,
+                UseShellExecute = false,
+                CreateNoWindow = true,
+                RedirectStandardError = true
+            };
 
+            using var process = Process.Start(psi)!;
+            token.Register(() => { try { process.Kill(); } catch { } });
+            using var reader = process.StandardOutput;
+            using var errorReader = process.StandardError;
+            string? line;
+            while ((line = await reader.ReadLineAsync()) != null)
+            {
+                if (token.IsCancellationRequested) break;
+
+                var price = JsonSerializer.Deserialize<PriceEntry>(line);
+                if (price != null)
+                {
+                    Dispatcher.Invoke(() => onPriceReceived(price));
+                }
+            }
+            if (!token.IsCancellationRequested)
+            {
+                string error = await errorReader.ReadToEndAsync();
+                process.WaitForExit();
+                if (!string.IsNullOrEmpty(error))
+                {
+                    Dispatcher.Invoke(() => MessageBox.Show("Ошибка Python:\n" + error));
+                }
+            }
+        });
+        await _currentRefreshTask;
     }
 
     private async void RefreshPrices_Click(object sender, RoutedEventArgs e)
@@ -194,10 +212,10 @@ public partial class MainWindow : Window
             var lastPrice = _db.Prices.Where(p => p.ItemId == catalogItem.Id && p.League == _currentLeague).OrderByDescending(p => p.Id).FirstOrDefault();
             if (lastPrice != null)
             {
-                tracked.TrendText = "(Outdated)";
-                tracked.TrendColor = "Black";
-                tracked.AmountText = $"{lastPrice.Price}";
-                tracked.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", lastPrice.Currency + ".png");
+                tracked.TrendText = "";
+                tracked.AmountText = "";
+                tracked.CurrencyIcon = "";
+                tracked.IsLoading = true;
             }
             else
             {
