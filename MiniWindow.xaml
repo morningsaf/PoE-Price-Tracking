@@ -174,11 +174,21 @@
                                             <Run Text=" "/>
                                             <Run Text="{Binding AmountText}"/>
                                         </TextBlock>
-                                        <Image Source="{Binding CurrencyIcon, Converter={StaticResource StringToImage}}"
-                                               Width="20"
-                                               Height="20"
-                                               Stretch="Uniform"
-                                               VerticalAlignment="Center"/>
+                                        <Image Source="{Binding CurrencyIcon, Converter={StaticResource StringToImage}}" 
+                                            Width="20" Height="20"
+                                            Stretch="Uniform"
+                                            VerticalAlignment="Center">
+                                            <Image.Style>
+                                                <Style TargetType="Image">
+                                                    <Setter Property="Visibility" Value="Visible"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding CurrencyIcon}" Value="">
+                                                            <Setter Property="Visibility" Value="Collapsed"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Image.Style>
+                                        </Image>
                                     </StackPanel>
                                 </Grid>
                             </DataTemplate>

@@ -173,6 +173,15 @@ public partial class MainWindow : Window
                 var item = trackedItems.FirstOrDefault(t => t.Name == price.Name);
                 if (item != null)
                 {
+                    if(price.Amount == null || price.Trend == "none")
+                    {
+                        item.TrendText = "No Data";
+                        item.TrendColor = "Gray";
+                        item.AmountText = "";
+                        item.CurrencyIcon = "";
+                        item.IsLoading = false;
+                        return;
+                    }
                     string trend = price.Trend ?? "";
                     if (string.IsNullOrEmpty(trend) || trend == "+0.00%" || trend == "0%")
                         item.TrendColor = "Gray";
