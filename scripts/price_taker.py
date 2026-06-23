@@ -93,4 +93,4 @@ for name in names:
         trend = "+0.00%"
     result = {"name": name, "amount": price_data["amount"], "currency" : price_data["currency"], "trend" : trend}
     print(json.dumps(result), flush=True)
-    time.sleep(2)
+    #time.sleep(2)

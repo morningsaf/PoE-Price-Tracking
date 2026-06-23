@@ -180,6 +180,7 @@ public partial class MainWindow : Window
                     {
                         StatusParser.Text = $"Banned for {price.RetryAfter} seconds";
                         StatusParser.Foreground = new SolidColorBrush(Colors.Red);
+                        _miniWindow?.SetParserStatus(StatusParser.Text, StatusParser.Foreground.ToString());
                     });
                     return;
                 }
@@ -214,6 +215,7 @@ public partial class MainWindow : Window
                 StatusParser.Text = "OK";
                 StatusParser.Foreground = new SolidColorBrush(Colors.Green);
             }
+            _miniWindow?.SetParserStatus(StatusParser.Text, StatusParser.Foreground.ToString());
         }
         catch (Exception ex)
         {

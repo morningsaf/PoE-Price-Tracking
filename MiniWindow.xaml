@@ -81,6 +81,12 @@
                                Text="Standard"
                                FontWeight="SemiBold"
                                Foreground="#C8A84E"/>
+                    <TextBlock Text="Status:"  
+                               Foreground="#888"
+                               Margin="12,0,6,0"/>
+                    <TextBlock x:Name="StatusParser" 
+                               Text="OK"
+                               Foreground="Green"/>
                 </StackPanel>
             </Border>
 

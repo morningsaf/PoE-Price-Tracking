@@ -27,5 +27,12 @@ namespace PoE_Price_Tracking
         {
             StatusLeague.Text = league;
         }
+
+        public void SetParserStatus(string text, string color)
+        {
+            StatusParser.Text = text;
+            var converter = new System.Windows.Media.BrushConverter();
+            StatusParser.Foreground = (System.Windows.Media.Brush)converter.ConvertFromString(color)!;
+        }
     }
 }
