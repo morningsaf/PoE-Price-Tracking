@@ -2,8 +2,18 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:PoE_Price_Tracking"
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
+
+        <!-- ============================================ -->
+        <!-- Converters (глобальные)                       -->
+        <!-- ============================================ -->
+        <local:StringToImageSourceConverter x:Key="StringToImage"/>
+
+        <!-- ============================================ -->
+        <!-- Базовые стили                                -->
+        <!-- ============================================ -->
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="assets/fonts/Roboto-VariableFont_wdth,wght.ttf#Roboto"/>
             <Setter Property="FontSize" Value="13"/>
@@ -18,6 +28,9 @@
             <Setter Property="Margin" Value="8,6,8,6"/>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- TabControl                                    -->
+        <!-- ============================================ -->
         <Style TargetType="TabControl">
             <Setter Property="BorderThickness" Value="0"/>
             <Setter Property="Background" Value="Transparent"/>
@@ -50,6 +63,9 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- PanelButton (кнопки панели инструментов)     -->
+        <!-- ============================================ -->
         <Style x:Key="PanelButton" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="BorderThickness" Value="0"/>
@@ -74,6 +90,96 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- TradeLinkButton (кнопка-ссылка на трейд)     -->
+        <!-- ============================================ -->
+        <Style x:Key="TradeLinkButtonStyle" TargetType="Button">
+            <Setter Property="Content" Value="🔗"/>
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="Margin" Value="6,0,0,0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Focusable" Value="False"/>
+            <Setter Property="ToolTip" Value="Open in trade"/>
+            <Setter Property="Opacity" Value="0.3"/>
+            <Setter Property="IsEnabled" Value="False"/>
+            <Setter Property="Cursor" Value="Arrow"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding HasPrice}" Value="True">
+                    <Setter Property="Opacity" Value="1"/>
+                    <Setter Property="IsEnabled" Value="True"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <!-- ============================================ -->
+        <!-- PriceDisplayTemplate (шаблон ячейки цены)    -->
+        <!-- ============================================ -->
+        <DataTemplate x:Key="PriceDisplayTemplate">
+            <Grid>
+                <!-- Loading gif -->
+                <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
+                       Width="48" Height="48"
+                       HorizontalAlignment="Right">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="RenderTransform">
+                                <Setter.Value>
+                                    <TranslateTransform X="0" Y="0"/>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsLoading}" Value="False">
+                                    <Setter Property="RenderTransform">
+                                        <Setter.Value>
+                                            <TranslateTransform X="1000" Y="0"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <!-- Цена: trend + amount + иконка валюты -->
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right">
+                    <TextBlock VerticalAlignment="Center"
+                               Margin="0,0,4,0">
+                        <Run Text="{Binding TrendText}" Foreground="{Binding TrendColor}"/>
+                        <Run Text=" "/>
+                        <Run Text="{Binding AmountText}"/>
+                    </TextBlock>
+                    <Image Source="{Binding CurrencyIcon, Converter={StaticResource StringToImage}}"
+                           Width="20" Height="20"
+                           Stretch="Uniform"
+                           VerticalAlignment="Center">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Setter Property="Visibility" Value="Visible"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding CurrencyIcon}" Value="">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
+
+        <!-- ============================================ -->
+        <!-- SubCategoryButtonStyle                       -->
+        <!-- ============================================ -->
         <Style x:Key="SubCategoryButtonStyle" TargetType="Button" BasedOn="{x:Null}">
             <Setter Property="Background" Value="White"/>
             <Setter Property="Width" Value="100"/>
@@ -100,6 +206,9 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- ScrollBar                                    -->
+        <!-- ============================================ -->
         <Style TargetType="ScrollBar">
             <Setter Property="Width" Value="6"/>
             <Setter Property="Background" Value="Transparent"/>
@@ -144,6 +253,9 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- ListBoxItem                                  -->
+        <!-- ============================================ -->
         <Style TargetType="ListBoxItem">
             <Setter Property="Template">
                 <Setter.Value>
@@ -166,6 +278,9 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- ComboBoxItem                                 -->
+        <!-- ============================================ -->
         <Style TargetType="ComboBoxItem">
             <Setter Property="Template">
                 <Setter.Value>
@@ -188,6 +303,9 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- ComboBox                                     -->
+        <!-- ============================================ -->
         <Style TargetType="ComboBox">
             <Setter Property="Padding" Value="8,4"/>
             <Setter Property="Template">
@@ -211,7 +329,9 @@
                                                     <ColumnDefinition Width="*"/>
                                                     <ColumnDefinition Width="Auto"/>
                                                 </Grid.ColumnDefinitions>
-                                                <ContentPresenter VerticalAlignment="Center" Margin="0,0,8,0"/>
+                                                <ContentPresenter Content="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ComboBox}, Path=SelectionBoxItem}"
+                  ContentTemplate="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ComboBox}, Path=SelectionBoxItemTemplate}"
+                  VerticalAlignment="Center" Margin="0,0,8,0"/>
                                                 <TextBlock Grid.Column="1" Text="▼" FontSize="10" Foreground="#888" VerticalAlignment="Center"/>
                                             </Grid>
                                         </Border>
@@ -245,6 +365,9 @@
             </Setter>
         </Style>
 
+        <!-- ============================================ -->
+        <!-- TabItem                                      -->
+        <!-- ============================================ -->
         <Style TargetType="TabItem">
             <Setter Property="FontSize" Value="14"/>
             <Setter Property="Background" Value="Transparent"/>
@@ -290,5 +413,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
+
     </Application.Resources>
 </Application>

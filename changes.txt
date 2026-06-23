@@ -1,3 +1,7 @@
+0.6a
+-Refactoring XAML
+Fix combobox in settingview
+
 0.6
 -Added trade links
 

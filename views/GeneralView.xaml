@@ -1,12 +1,7 @@
 <UserControl x:Class="PoE_Price_Tracking.views.GeneralView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:gif="http://wpfanimatedgif.codeplex.com"
              xmlns:local="clr-namespace:PoE_Price_Tracking">
-    <UserControl.Resources>
-        <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
-        <local:StringToImageSourceConverter x:Key="StringToImage"/>
-    </UserControl.Resources>
     <DataGrid x:Name="MainTable" 
               AutoGenerateColumns="False"
               CanUserAddRows="False"
@@ -45,6 +40,7 @@
             <SolidColorBrush x:Key="{x:Static SystemColors.InactiveSelectionHighlightBrushKey}" Color="Transparent"/>
         </DataGrid.Resources>   
         <DataGrid.Columns>
+            <!-- Иконка предмета -->
             <DataGridTemplateColumn Width="40">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
@@ -55,97 +51,24 @@
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
 
+            <!-- Название + кнопка трейда -->
             <DataGridTemplateColumn Width="*">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
-                            <Button Content="🔗" 
-                                    FontSize="10"
-                                    Margin="6,0,0,0"
-                                    Padding="0"
-                                    BorderThickness="0"
-                                    Focusable="False"
-                                    ToolTip="Open in trade"
+                            <Button Style="{StaticResource TradeLinkButtonStyle}"
                                     Click="TradeLink_Click"
-                                    Tag="{Binding TradeUrl}">
-                                <Button.Template>
-                                    <ControlTemplate TargetType="Button">
-                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                    </ControlTemplate>
-                                </Button.Template>
-                                <Button.Style>
-                                    <Style TargetType="Button">
-                                        <Setter Property="Opacity" Value="0.3"/>
-                                        <Setter Property="IsEnabled" Value="False"/>
-                                        <Setter Property="Cursor" Value="Arrow"/>
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding HasPrice}" Value="True">
-                                                <Setter Property="Opacity" Value="1"/>
-                                                <Setter Property="IsEnabled" Value="True"/>
-                                                <Setter Property="Cursor" Value="Hand"/>
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </Button.Style>
-                            </Button>
+                                    Tag="{Binding TradeUrl}"/>
                         </StackPanel>
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
+
+            <!-- Цена: loading + trend + amount + currency icon -->
             <DataGridTemplateColumn Width="120">
                 <DataGridTemplateColumn.CellTemplate>
-                    <DataTemplate>
-                        <Grid>
-                            <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
-                                    Width="48" Height="48"
-                                    HorizontalAlignment="Right">
-                                <Image.Style>
-                                    <Style TargetType="Image">
-                                        <Setter Property="RenderTransform">
-                                            <Setter.Value>
-                                                <TranslateTransform X="0" Y="0"/>
-                                            </Setter.Value>
-                                        </Setter>
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsLoading}" Value="False">
-                                                <Setter Property="RenderTransform">
-                                                    <Setter.Value>
-                                                        <TranslateTransform X="1000" Y="0"/>
-                                                    </Setter.Value>
-                                                </Setter>
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </Image.Style>
-                            </Image>
-                            <StackPanel Orientation="Horizontal"
-                                        VerticalAlignment="Center"
-                                        HorizontalAlignment="Right">
-                                <TextBlock VerticalAlignment="Center"
-                                            Margin="0,0,4,0">
-                                    <Run Text="{Binding TrendText}" Foreground="{Binding TrendColor}"/>
-                                    <Run Text=" "/>
-                                    <Run Text="{Binding AmountText}"/>
-                                </TextBlock>
-                                <Image Source="{Binding CurrencyIcon, Converter={StaticResource StringToImage}}" 
-                                       Width="20" Height="20"
-                                       Stretch="Uniform"
-                                       VerticalAlignment="Center">
-                                        <Image.Style>
-                                            <Style TargetType="Image">
-                                                <Setter Property="Visibility" Value="Visible"/>
-                                                <Style.Triggers>
-                                                    <DataTrigger Binding="{Binding CurrencyIcon}" Value="">
-                                                        <Setter Property="Visibility" Value="Collapsed"/>
-                                                    </DataTrigger>
-                                                </Style.Triggers>
-                                            </Style>
-                                        </Image.Style>
-                                </Image>
-                            </StackPanel>
-                        </Grid>
-                    </DataTemplate>
+                    <StaticResource ResourceKey="PriceDisplayTemplate"/>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
         </DataGrid.Columns>

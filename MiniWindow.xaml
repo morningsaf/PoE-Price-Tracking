@@ -23,12 +23,64 @@
     </shell:WindowChrome.WindowChrome>
 
     <Window.Resources>
-        <local:BoolToVisibilityConverter x:Key="BoolToVisibility"/>
-        <local:StringToImageSourceConverter x:Key="StringToImage"/>
-        <Style TargetType="TextBlock">
-            <Setter Property="FontSize"
-                    Value="9"/>
-        </Style>
+        <!-- 
+        MiniWindow использует уменьшенную версию PriceDisplayTemplate:
+        gif 32x32 вместо 48x48.
+        Остальное идентично — вынесено в App.xaml.
+        -->
+        <DataTemplate x:Key="MiniPriceDisplayTemplate">
+            <Grid>
+                <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
+                       Width="32" Height="32"
+                       HorizontalAlignment="Right">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="RenderTransform">
+                                <Setter.Value>
+                                    <TranslateTransform X="0" Y="0"/>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsLoading}" Value="False">
+                                    <Setter Property="RenderTransform">
+                                        <Setter.Value>
+                                            <TranslateTransform X="1000" Y="0"/>
+                                        </Setter.Value>
+                                    </Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <StackPanel Orientation="Horizontal"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Right">
+                    <TextBlock VerticalAlignment="Center"
+                               Margin="0,0,4,0"
+                               FontSize="12">
+                        <Run Text="{Binding TrendText}"
+                             Foreground="{Binding TrendColor}"/>
+                        <Run Text=" "/>
+                        <Run Text="{Binding AmountText}"/>
+                    </TextBlock>
+                    <Image Source="{Binding CurrencyIcon, Converter={StaticResource StringToImage}}" 
+                           Width="20" Height="20"
+                           Stretch="Uniform"
+                           VerticalAlignment="Center">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Setter Property="Visibility" Value="Visible"/>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding CurrencyIcon}" Value="">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
     </Window.Resources>
 
     <Border Background="White"
@@ -42,6 +94,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
+            <!-- Кнопки управления -->
             <StackPanel Grid.Row="0"
                         Orientation="Horizontal"
                         HorizontalAlignment="Right">
@@ -68,6 +121,7 @@
                 </Button>
             </StackPanel>
 
+            <!-- Статус-бар -->
             <Border Grid.Row="1"
                     Background="#FAFAFA"
                     BorderBrush="#E0E0E0"
@@ -90,6 +144,7 @@
                 </StackPanel>
             </Border>
 
+            <!-- Таблица предметов -->
             <DataGrid x:Name="MiniTable"
                       Grid.Row="2"
                       AutoGenerateColumns="False"
@@ -131,103 +186,25 @@
                     </Style>
                 </DataGrid.Resources>
                 <DataGrid.Columns>
-
+                    <!-- Название + кнопка трейда -->
                     <DataGridTemplateColumn Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <StackPanel Orientation="Horizontal" IsHitTestVisible="True" Focusable="False">
                                     <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
-                                    <Button Content="🔗" 
-                                            FontSize="10"
-                                            Margin="6,0,0,0"
-                                            Padding="0"
-                                            BorderThickness="0"
-                                            Focusable="False"
-                                            ToolTip="Open in trade"
+                                    <Button Style="{StaticResource TradeLinkButtonStyle}"
                                             Click="TradeLink_Click"
                                             IsHitTestVisible="True"
-                                            Tag="{Binding TradeUrl}">
-                                        <Button.Template>
-                                            <ControlTemplate TargetType="Button">
-                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                                            </ControlTemplate>
-                                        </Button.Template>
-                                        <Button.Style>
-                                            <Style TargetType="Button">
-                                                <Setter Property="Opacity" Value="0.3"/>
-                                                <Setter Property="IsEnabled" Value="False"/>
-                                                <Setter Property="Cursor" Value="Arrow"/>
-                                                <Style.Triggers>
-                                                    <DataTrigger Binding="{Binding HasPrice}" Value="True">
-                                                        <Setter Property="Opacity" Value="1"/>
-                                                        <Setter Property="IsEnabled" Value="True"/>
-                                                        <Setter Property="Cursor" Value="Hand"/>
-                                                    </DataTrigger>
-                                                </Style.Triggers>
-                                            </Style>
-                                        </Button.Style>
-                                    </Button>
+                                            Tag="{Binding TradeUrl}"/>
                                 </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
+                    <!-- Цена -->
                     <DataGridTemplateColumn Width="80">
                         <DataGridTemplateColumn.CellTemplate>
-                            <DataTemplate>
-                                <Grid>
-                                    <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
-                                           Width="32"
-                                           Height="32"
-                                           HorizontalAlignment="Right">
-                                           <Image.Style>
-                                                <Style TargetType="Image">
-                                                    <Setter Property="RenderTransform">
-                                                        <Setter.Value>
-                                                            <TranslateTransform X="0" Y="0"/>
-                                                        </Setter.Value>
-                                                    </Setter>
-                                                    <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding IsLoading}" Value="False">
-                                                            <Setter Property="RenderTransform">
-                                                                <Setter.Value>
-                                                                    <TranslateTransform X="1000" Y="0"/>
-                                                                </Setter.Value>
-                                                            </Setter>
-                                                        </DataTrigger>
-                                                    </Style.Triggers>
-                                                </Style>
-                                            </Image.Style>
-                                    </Image>
-                                    <StackPanel Orientation="Horizontal"
-                                                VerticalAlignment="Center"
-                                                HorizontalAlignment="Right">
-                                        <TextBlock VerticalAlignment="Center"
-                                                   Margin="0,0,4,0"
-                                                   FontSize="12">
-                                            <Run Text="{Binding TrendText}"
-                                                 Foreground="{Binding TrendColor}"/>
-                                            <Run Text=" "/>
-                                            <Run Text="{Binding AmountText}"/>
-                                        </TextBlock>
-                                        <Image Source="{Binding CurrencyIcon, Converter={StaticResource StringToImage}}" 
-                                            Width="20" Height="20"
-                                            Stretch="Uniform"
-                                            VerticalAlignment="Center">
-                                            <Image.Style>
-                                                <Style TargetType="Image">
-                                                    <Setter Property="Visibility" Value="Visible"/>
-                                                    <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding CurrencyIcon}" Value="">
-                                                            <Setter Property="Visibility" Value="Collapsed"/>
-                                                        </DataTrigger>
-                                                    </Style.Triggers>
-                                                </Style>
-                                            </Image.Style>
-                                        </Image>
-                                    </StackPanel>
-                                </Grid>
-                            </DataTemplate>
+                            <StaticResource ResourceKey="MiniPriceDisplayTemplate"/>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
                 </DataGrid.Columns>
