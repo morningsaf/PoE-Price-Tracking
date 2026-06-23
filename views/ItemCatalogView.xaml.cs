@@ -37,6 +37,7 @@ namespace PoE_Price_Tracking.views
             }},
         };
 
+        private bool _restoringSelection = false;
         private List<Item> _allItems;
         private List<Item> _filteredItems;
         private List<string> _selectedNames;
@@ -146,7 +147,8 @@ namespace PoE_Price_Tracking.views
 
             if (string.IsNullOrEmpty(filter))
             {
-                ItemsListBox.ItemsSource = _defaultItems;
+                _filteredItems = _defaultItems;
+                ItemsListBox.ItemsSource = _filteredItems;
                 SuggestionsPopup.IsOpen = false;
                 RestoreSelection();
                 return;
@@ -206,16 +208,21 @@ namespace PoE_Price_Tracking.views
 
         private void RestoreSelection()
         {
+            _restoringSelection = true;
             ItemsListBox.SelectedItems.Clear();
-            foreach (var item in _filteredItems)
+            foreach (var name in _selectedNames)
             {
-                if (_selectedNames.Contains(item.Name))
+                var item = _filteredItems.FirstOrDefault(i => i.Name == name);
+                if (item != null)
                     ItemsListBox.SelectedItems.Add(item);
             }
+            _restoringSelection = false;
         }
 
         private void Card_Click(object sender, MouseButtonEventArgs e)
         {
+            if (_restoringSelection) return;
+
             Border border = (Border)sender;
             Item item = (Item)border.Tag;
 
@@ -226,7 +233,6 @@ namespace PoE_Price_Tracking.views
 
             CartListBox.ItemsSource = null;
             CartListBox.ItemsSource = _selectedNames;
-            RestoreSelection();
             CartChanged?.Invoke();
         }
 
