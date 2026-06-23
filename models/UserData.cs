@@ -10,6 +10,8 @@ namespace PoE_Price_Tracking
 
         [JsonPropertyName("tracked_items")]
         public List<string> TrackedItems { get; set; } = new();
+        [JsonPropertyName("dark_theme")]
+        public bool DarkTheme { get; set; } = false;
     }
 }
 

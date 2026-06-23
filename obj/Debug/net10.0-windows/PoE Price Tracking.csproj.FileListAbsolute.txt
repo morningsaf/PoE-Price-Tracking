@@ -1,148 +1,34 @@
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.exe
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.deps.json
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.runtimeconfig.json
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.pdb
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.g.cs
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.g.cs
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.cache
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.g.resources
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.GeneratedMSBuildEditorConfig.editorconfig
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.AssemblyInfoInputs.cache
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.AssemblyInfo.cs
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.csproj.CoreCompileInputs.cache
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.dll
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\refint\PoE Price Tracking.dll
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.pdb
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.genruntimeconfig.cache
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\ref\PoE Price Tracking.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Humanizer.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Build.Framework.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.VisualStudio.SolutionPersistence.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Mono.TextTemplating.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.AttributedModel.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Convention.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Hosting.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Runtime.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.TypedParts.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-arm\native\e_sqlite3.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.csproj.AssemblyReference.cache
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Pric.33EEA0AB.Up2Date
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\poe.db
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_Content.g.cs
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\AdventPro-VariableFont_wdth,wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Jura-VariableFont_wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\PlayfairDisplay-VariableFont_wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Roboto-VariableFont_wdth,wght.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Ubuntu-Regular.ttf
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\alch.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\alt.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\aug.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\bauble.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\blessed.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chance.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chaos.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chisel.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chrome.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\divine.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\eternal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\exalted.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\fusing.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\gcp.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\jewellers.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\mirror.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\portal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\regal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\regret.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\scour.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\scrap.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\transmute.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\vaal.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\whetstone.png
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\wisdom.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abberath's Hooves_orig.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abberath's Horn_orig.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Abhorrent Interrogation_orig.png
@@ -1542,51 +1428,164 @@ D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zahndethus' 
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zeel's Amplifier_orig.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zerphi's Heart_orig.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\items\Zerphi's Last Breath_orig.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\alch.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\alt.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\aug.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\bauble.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\blessed.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chance.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chaos.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chisel.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\chrome.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\divine.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\eternal.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\exalted.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\fusing.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\gcp.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\jewellers.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\mirror.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\portal.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\regal.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\regret.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\scour.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\scrap.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\transmute.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\vaal.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\whetstone.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\currency\wisdom.png
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\loading.gif
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\loading_dark.gif
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.exe
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.deps.json
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.runtimeconfig.json
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\PoE Price Tracking.pdb
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Humanizer.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Build.Framework.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Data.Sqlite.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.DependencyModel.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Options.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.Extensions.Primitives.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Microsoft.VisualStudio.SolutionPersistence.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Mono.TextTemplating.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\Newtonsoft.Json.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.batteries_v2.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.core.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.AttributedModel.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Convention.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Hosting.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.Runtime.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\System.Composition.TypedParts.dll
 D:\PoE Price Tracking\bin\Debug\net10.0-windows\WpfAnimatedGif.dll
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.lref
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-arm\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-armel\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-riscv64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-riscv64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-x64\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\linux-x86\native\libe_sqlite3.so
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-arm\native\e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-arm64\native\e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-x64\native\e_sqlite3.dll
+D:\PoE Price Tracking\bin\Debug\net10.0-windows\runtimes\win-x86\native\e_sqlite3.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.csproj.AssemblyReference.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\themes\DarkTheme.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\themes\LightTheme.baml
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\MiniWindow.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\ItemCatalogView.g.cs
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\PlayfairDisplay-VariableFont_wght.ttf
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Ubuntu-Regular.ttf
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\AdventPro-VariableFont_wdth,wght.ttf
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Jura-VariableFont_wght.ttf
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_Content.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking_MarkupCompile.lref
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\App.baml
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\MainWindow.baml
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.baml
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\fonts\Roboto-VariableFont_wdth,wght.ttf
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\info.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\minimize.png
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\refresh.png
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.baml
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\SettingsView.g.cs
 D:\PoE Price Tracking\obj\Debug\net10.0-windows\MiniWindow.baml
-D:\PoE Price Tracking\obj\Debug\net10.0-windows\MiniWindow.g.cs
-D:\PoE Price Tracking\bin\Debug\net10.0-windows\assets\images\icons\maximize.png
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\views\GeneralView.baml
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.g.resources
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.GeneratedMSBuildEditorConfig.editorconfig
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.AssemblyInfoInputs.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.AssemblyInfo.cs
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.csproj.CoreCompileInputs.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Pric.33EEA0AB.Up2Date
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\refint\PoE Price Tracking.dll
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.pdb
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\PoE Price Tracking.genruntimeconfig.cache
+D:\PoE Price Tracking\obj\Debug\net10.0-windows\ref\PoE Price Tracking.dll

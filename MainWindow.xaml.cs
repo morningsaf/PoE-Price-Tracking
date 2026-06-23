@@ -1,28 +1,18 @@
 ﻿using System.Diagnostics;
-using System.Text;
 using System.Text.Json;
 using System.Windows;
-using System.Windows.Automation;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using System.IO;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Interop;
+using System.Windows.Media.Imaging;
 
 
 namespace PoE_Price_Tracking;
 
 public partial class MainWindow : Window
 {
+    private bool _isDarkTheme = false;
     private bool _isBanned = false;
     private Task? _currentRefreshTask;
     private CancellationTokenSource? _refreshCts;
@@ -69,6 +59,9 @@ public partial class MainWindow : Window
         UserData userData = _trackedService.Load();
         _trackedNames = userData.TrackedItems;
         _currentLeague = userData.League;
+        _isDarkTheme = userData.DarkTheme;
+        ThemeIconText.Text = _isDarkTheme ? "☀" : "🌛";
+        ((App)Application.Current).SetTheme(_isDarkTheme);
         StatusLeague.Text = _currentLeague;
         SettingsViewControl.SetLeague(_currentLeague);
         SettingsViewControl.LeagueChanged += (league) =>
@@ -82,8 +75,8 @@ public partial class MainWindow : Window
                 tracked.QueryId = null;
                 tracked.League = league;
             }
-            UserData data = new UserData { League = league, TrackedItems = _trackedNames };
-            _trackedService.Save(data);
+            userData.League = league;
+            _trackedService.Save(userData);
             RefreshTrackedTable();
         };
         ItemCatalogView!.Initialize(_allItems, _trackedNames);
@@ -98,7 +91,8 @@ public partial class MainWindow : Window
                 League = _currentLeague,
                 TrackedItems = _trackedNames
             };
-            _trackedService.Save(data);
+            userData.TrackedItems = _trackedNames;
+            _trackedService.Save(userData);
             RefreshTrackedTable();
         };
     }
@@ -287,5 +281,15 @@ public partial class MainWindow : Window
         _miniWindow.MiniTable.ItemsSource = trackedItems;
         _miniWindow.Show();
         this.Hide();
+    }
+
+    private void ToggleTheme_Click(object sender, RoutedEventArgs e)
+    {
+        _isDarkTheme = !_isDarkTheme;
+        ThemeIconText.Text = _isDarkTheme ? "☀" : "🌛";
+        ((App)Application.Current).SetTheme(_isDarkTheme);
+        UserData data = _trackedService.Load();
+        data.DarkTheme = _isDarkTheme;
+        _trackedService.Save(data);
     }
 }

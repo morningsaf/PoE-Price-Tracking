@@ -9,5 +9,11 @@ namespace PoE_Price_Tracking;
 /// </summary>
 public partial class App : Application
 {
+    public void SetTheme(bool isDark)
+    {
+        Resources.MergedDictionaries.Clear();
+        string theme = isDark ? "Themes/DarkTheme.xaml" : "Themes/LightTheme.xaml";
+        Resources.MergedDictionaries.Add(new ResourceDictionary { Source = new Uri(theme, UriKind.Relative) });
+    }
 }
 

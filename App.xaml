@@ -5,10 +5,10 @@
              xmlns:gif="http://wpfanimatedgif.codeplex.com"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-
-        <!-- ============================================ -->
-        <!-- Converters (глобальные)                       -->
-        <!-- ============================================ -->
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/LightTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
         <local:StringToImageSourceConverter x:Key="StringToImage"/>
 
         <!-- ============================================ -->
@@ -17,6 +17,7 @@
         <Style TargetType="TextBlock">
             <Setter Property="FontFamily" Value="assets/fonts/Roboto-VariableFont_wdth,wght.ttf#Roboto"/>
             <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
         </Style>
 
         <Style TargetType="Control">
@@ -43,7 +44,9 @@
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
                             <Border Grid.Row="0"
-                                    Background="#EEEEEE"
+                                    Background="{DynamicResource TabHeaderBackgroundBrush}"
+                                    BorderBrush="{DynamicResource TabHeaderBorderBrush}"
+                                    BorderThickness="1,1,1,0"
                                     CornerRadius="8,8,0,0"
                                     Padding="12,8,12,0">
                                 <TabPanel x:Name="HeaderPanel"
@@ -51,8 +54,8 @@
                                           IsItemsHost="True"/>
                             </Border>
                             <Border Grid.Row="1"
-                                    Background="White"
-                                    BorderBrush="#E0E0E0"
+                                    Background="{DynamicResource PrimaryBackgroundBrush}"
+                                    BorderBrush="{DynamicResource BorderBrush}"
                                     BorderThickness="1,0,1,0"
                                     CornerRadius="0,0,8,8">
                                 <ContentPresenter ContentSource="SelectedContent"/>
@@ -82,7 +85,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#E0E0E0"/>
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource ButtonHoverBackgroundBrush}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -94,6 +97,7 @@
         <!-- TradeLinkButton (кнопка-ссылка на трейд)     -->
         <!-- ============================================ -->
         <Style x:Key="TradeLinkButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
             <Setter Property="Content" Value="🔗"/>
             <Setter Property="FontSize" Value="10"/>
             <Setter Property="Margin" Value="6,0,0,0"/>
@@ -126,7 +130,7 @@
         <DataTemplate x:Key="PriceDisplayTemplate">
             <Grid>
                 <!-- Loading gif -->
-                <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
+                <Image gif:ImageBehavior.AnimatedSource="{DynamicResource LoadingGifSource}"
                        Width="48" Height="48"
                        HorizontalAlignment="Right">
                     <Image.Style>
@@ -181,7 +185,7 @@
         <!-- SubCategoryButtonStyle                       -->
         <!-- ============================================ -->
         <Style x:Key="SubCategoryButtonStyle" TargetType="Button" BasedOn="{x:Null}">
-            <Setter Property="Background" Value="White"/>
+            <Setter Property="Background" Value="{DynamicResource CardBackgroundBrush}"/>
             <Setter Property="Width" Value="100"/>
             <Setter Property="Height" Value="26"/>
             <Setter Property="Margin" Value="2"/>
@@ -198,7 +202,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#C8A84E"/>
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource AccentBrush}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -233,13 +237,13 @@
                                         <Thumb.Template>
                                             <ControlTemplate TargetType="Thumb">
                                                 <Border x:Name="thumbBorder"
-                                                        Background="#CCC" 
+                                                        Background="{DynamicResource ScrollBarThumbBrush}" 
                                                         CornerRadius="3"
                                                         Width="6"/>
                                                 <ControlTemplate.Triggers>
                                                     <Trigger Property="IsMouseOver" Value="True">
                                                         <Setter TargetName="thumbBorder" 
-                                                                Property="Background" Value="#999"/>
+                                                                Property="Background" Value="{DynamicResource ScrollBarThumbHoverBrush}"/>
                                                     </Trigger>
                                                 </ControlTemplate.Triggers>
                                             </ControlTemplate>
@@ -267,15 +271,25 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#E8D07A"/>
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource HoverRowBrush}"/>
                             </Trigger>
                             <Trigger Property="IsSelected" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#C8A84E"/>
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource SelectedRowBrush}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+        </Style>
+
+        <Style TargetType="DataGridCell">
+            <Setter Property="Background" Value="{DynamicResource PrimaryBackgroundBrush}"/>
+            <Setter Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <Style TargetType="DataGridRow">
+            <Setter Property="Background" Value="{DynamicResource PrimaryBackgroundBrush}"/>
         </Style>
 
         <!-- ============================================ -->
@@ -292,10 +306,10 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#E8D07A"/>
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource HoverRowBrush}"/>
                             </Trigger>
                             <Trigger Property="IsSelected" Value="True">
-                                <Setter TargetName="border" Property="Background" Value="#C8A84E"/>
+                                <Setter TargetName="border" Property="Background" Value="{DynamicResource SelectedRowBrush}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -319,8 +333,8 @@
                                 <ToggleButton.Template>
                                     <ControlTemplate TargetType="ToggleButton">
                                         <Border x:Name="border"
-                                                Background="WhiteSmoke"
-                                                BorderBrush="LightGray"
+                                                Background="{DynamicResource InputBackgroundBrush}"
+                                                BorderBrush="{DynamicResource InputBorderBrush}"
                                                 BorderThickness="1"
                                                 CornerRadius="6"
                                                 Padding="{TemplateBinding Padding}">
@@ -337,10 +351,10 @@
                                         </Border>
                                         <ControlTemplate.Triggers>
                                             <Trigger Property="IsMouseOver" Value="True">
-                                                <Setter TargetName="border" Property="BorderBrush" Value="#C8A84E"/>
+                                                <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource AccentBrush}"/>
                                             </Trigger>
                                             <Trigger Property="IsChecked" Value="True">
-                                                <Setter TargetName="border" Property="BorderBrush" Value="#C8A84E"/>
+                                                <Setter TargetName="border" Property="BorderBrush" Value="{DynamicResource AccentBrush}"/>
                                             </Trigger>
                                         </ControlTemplate.Triggers>
                                     </ControlTemplate>
@@ -352,8 +366,12 @@
                                    Placement="Bottom"
                                    IsOpen="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
                                    AllowsTransparency="True" Focusable="False" PopupAnimation="Slide">
-                                <Border Background="White" BorderBrush="#E0E0E0" BorderThickness="1" CornerRadius="6" Margin="0,2,0,0"
-                                        MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                <Border Background="{DynamicResource PopupBackgroundBrush}" 
+                                    BorderBrush="{DynamicResource PopupBorderBrush}" 
+                                    BorderThickness="1" 
+                                    CornerRadius="6" 
+                                    Margin="0,2,0,0"
+                                    MaxHeight="{TemplateBinding MaxDropDownHeight}">
                                     <ScrollViewer>
                                         <ItemsPresenter/>
                                     </ScrollViewer>
@@ -379,8 +397,8 @@
                     <ControlTemplate TargetType="TabItem">
                         <Border Margin="4,0" Background="Transparent">
                             <Border x:Name="tabBorder"
-                                    Background="#E8E8E8"
-                                    BorderBrush="#E0E0E0"
+                                    Background="{DynamicResource TabInactiveBrush}"
+                                    BorderBrush="{DynamicResource BorderBrush}"
                                     BorderThickness="1,1,1,0"
                                     CornerRadius="6,6,0,0"
                                     Padding="{TemplateBinding Padding}">
@@ -388,23 +406,23 @@
                                            Text="{TemplateBinding Header}"
                                            VerticalAlignment="Center"
                                            HorizontalAlignment="Center"
-                                           Foreground="#777"/>
+                                           Foreground="{DynamicResource TabInactiveTextBrush}"/>
                             </Border>
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
                                 <Setter TargetName="tabBorder" 
-                                        Property="Background" Value="#DDD"/>
+                                        Property="Background" Value="{DynamicResource ButtonHoverBackgroundBrush}"/>
                                 <Setter TargetName="tabText" 
-                                        Property="Foreground" Value="#555"/>
+                                        Property="Foreground" Value="{DynamicResource PrimaryTextBrush}"/>
                             </Trigger>
                             <Trigger Property="IsSelected" Value="True">
                                 <Setter TargetName="tabBorder" 
-                                        Property="Background" Value="White"/>
+                                        Property="Background" Value="{DynamicResource TabActiveBrush}"/>
                                 <Setter TargetName="tabBorder" 
-                                        Property="BorderBrush" Value="#E0E0E0"/>
+                                        Property="BorderBrush" Value="{DynamicResource BorderBrush}"/>
                                 <Setter TargetName="tabText" 
-                                        Property="Foreground" Value="#A0825A"/>
+                                        Property="Foreground" Value="{DynamicResource TabActiveTextBrush}"/>
                                 <Setter TargetName="tabText" 
                                         Property="FontWeight" Value="Regular"/>
                             </Trigger>
@@ -413,6 +431,6 @@
                 </Setter.Value>
             </Setter>
         </Style>
-
+    </ResourceDictionary>
     </Application.Resources>
 </Application>

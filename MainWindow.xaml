@@ -14,8 +14,8 @@
         ResizeMode="NoResize">
     <Window.Resources>
         <Style TargetType="Button">
-            <Setter Property="Background" Value="WhiteSmoke"/>
-            <Setter Property="BorderBrush" Value="LightGray"/>
+            <Setter Property="Background" Value="{DynamicResource ButtonBackgroundBrush}"/>
+            <Setter Property="BorderBrush" Value="{DynamicResource ButtonBorderBrush}"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="Padding" Value="8,2"/>
             <Setter Property="Cursor" Value="Hand"/>
@@ -32,7 +32,7 @@
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#C8DCFF"/>
+                                <Setter Property="Background" Value="{DynamicResource ButtonHoverBackgroundBrush}"/>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
@@ -40,9 +40,9 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Border Background="White" 
+    <Border Background="{DynamicResource PrimaryBackgroundBrush}" 
             CornerRadius="12"
-            BorderBrush="#E0E0E0"
+            BorderBrush="{DynamicResource BorderBrush}"
             BorderThickness="1,1,1,0"
             Padding="0,0,0,8">
 
@@ -56,7 +56,7 @@
 
             <!-- Заголовок окна -->
             <Border Grid.Row="0"
-                    Background="#F0F0F0"
+                    Background="{DynamicResource TitleBarBackgroundBrush}"
                     Padding="12,8"
                     CornerRadius="12,12,0,0"
                     MouseLeftButtonDown="Window_MouseLeftButtonDown">
@@ -92,9 +92,9 @@
 
             <!-- Панель инструментов -->
             <Border Grid.Row="1" 
-                    Background="#F5F5F5"
+                    Background="{DynamicResource SecondaryBackgroundBrush}"
                     Padding="8,4"
-                    BorderBrush="#E0E0E0"
+                    BorderBrush="{DynamicResource BorderBrush}"
                     BorderThickness="0">
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Width="33" Height="33"
@@ -103,15 +103,20 @@
                         ToolTip="Toggle theme"
                         Click="ToggleTheme_Click"
                         Style="{StaticResource PanelButton}">
-                    <Image Source="assets/images/icons/theme.png" Width="22" Height="22" Stretch="Uniform"/>
-                    
+                    <TextBlock x:Name="ThemeIconText" 
+                                Text = ""
+                                FontFamily="assets/fonts/Roboto-VariableFont_wdth,wght.ttf#Roboto"
+                                FontSize="16" 
+                                VerticalAlignment="Center" 
+                                HorizontalAlignment="Center"/>
+                    </Button>
                     <Button Width="33" Height="33"
                             Padding="0"
                             Margin="4,0,4,0"
                             ToolTip="Refresh prices"
                             Click="RefreshPrices_Click"
                             Style="{StaticResource PanelButton}">
-                        <Image Source="assets/images/icons/refresh.png" Width="22" Height="22" Stretch="Uniform"/>
+                        <TextBlock Text="⟳" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </Button>
                     <Button Width="33" Height="33"
                             Padding="0"
@@ -119,23 +124,23 @@
                             ToolTip="Minimize window"
                             Click="Minimize_Click"
                             Style="{StaticResource PanelButton}">
-                        <Image Source="assets/images/icons/minimize.png" Width="22" Height="22" Stretch="Uniform"/>
+                        <TextBlock Text="⇣" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </Button>
                     <Button Width="33" Height="33"
                             Padding="0"
                             Margin="4,0,4,0"
                             ToolTip="Info"
                             Style="{StaticResource PanelButton}">
-                        <Image Source="assets/images/icons/info.png" Width="22" Height="22" Stretch="Uniform"/>
+                        <TextBlock Text="🛈" FontSize="30" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </Button>
                 </StackPanel>
             </Border>
 
             <!-- Статус-бар -->
             <Border Grid.Row="2" 
-                    Background="#FAFAFA"
+                    Background="{DynamicResource StatusBarBackgroundBrush}"
                     Padding="8,4"
-                    BorderBrush="#E0E0E0"
+                    BorderBrush="{DynamicResource StatusBarBorderBrush}"
                     BorderThickness="0,0,0,1">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="League:" 
@@ -146,7 +151,7 @@
                                Text="Standard"
                                FontSize="12" 
                                FontWeight="SemiBold"
-                               Foreground="#C8A84E"
+                               Foreground="{DynamicResource AccentBrush}"
                                Margin="0,0,20,0"/>
                     <TextBlock Text="Status:" 
                                FontSize="12" 
@@ -162,7 +167,7 @@
             <!-- Вкладки -->
             <Border Grid.Row="3"
                     CornerRadius="0,0,12,12"
-                    Background="White"
+                    Background="{DynamicResource PrimaryBackgroundBrush}"
                     ClipToBounds="True">
                 <TabControl Background="Transparent"
                             BorderThickness="0">

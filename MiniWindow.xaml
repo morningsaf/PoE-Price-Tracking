@@ -21,16 +21,10 @@
                             ResizeBorderThickness="6"
                             CornerRadius="8"/>
     </shell:WindowChrome.WindowChrome>
-
     <Window.Resources>
-        <!-- 
-        MiniWindow использует уменьшенную версию PriceDisplayTemplate:
-        gif 32x32 вместо 48x48.
-        Остальное идентично — вынесено в App.xaml.
-        -->
         <DataTemplate x:Key="MiniPriceDisplayTemplate">
             <Grid>
-                <Image gif:ImageBehavior.AnimatedSource="pack://application:,,,/assets/loading.gif"
+                <Image gif:ImageBehavior.AnimatedSource="{DynamicResource LoadingGifSource}"
                        Width="32" Height="32"
                        HorizontalAlignment="Right">
                     <Image.Style>
@@ -83,9 +77,9 @@
         </DataTemplate>
     </Window.Resources>
 
-    <Border Background="White"
+    <Border Background="{DynamicResource PrimaryBackgroundBrush}"
             CornerRadius="8"
-            BorderBrush="#E0E0E0"
+            BorderBrush="{DynamicResource BorderBrush}"
             BorderThickness="1">
         <Grid Margin="8">
             <Grid.RowDefinitions>
@@ -98,45 +92,39 @@
             <StackPanel Grid.Row="0"
                         Orientation="Horizontal"
                         HorizontalAlignment="Right">
-                <Button Width="17"
-                        Height="17"
+                <Button Width="21"
+                        Height="21"
                         Click="Refresh_Click"
                         ToolTip="Refresh prices"
                         Style="{StaticResource PanelButton}">
-                    <Image Source="assets/images/icons/refresh.png"
-                           Width="16"
-                           Height="16"
-                           Stretch="Uniform"/>
+                    <TextBlock Text="⟳" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Button>
-                <Button Width="17"
-                        Height="17"
+                <Button Width="21"
+                        Height="21"
                         Click="Restore_Click"
                         ToolTip="Maximize window"
                         Style="{StaticResource PanelButton}"
                         Margin="4,0,4,0">
-                    <Image Source="assets/images/icons/maximize.png"
-                           Width="16"
-                           Height="16"
-                           Stretch="Uniform"/>
+                    <TextBlock Text="⇡" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Button>
             </StackPanel>
 
             <!-- Статус-бар -->
             <Border Grid.Row="1"
-                    Background="#FAFAFA"
-                    BorderBrush="#E0E0E0"
+                    Background="{DynamicResource StatusBarBackgroundBrush}"
+                    BorderBrush="{DynamicResource StatusBarBorderBrush}"
                     BorderThickness="0,0,0,1"
                     Margin="-8,0,-8,6">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="League:"
-                               Foreground="#888"
+                               Foreground="{DynamicResource SecondaryTextBrush}"
                                Margin="4,0,4,0"/>
                     <TextBlock x:Name="StatusLeague"
                                Text="Standard"
                                FontWeight="SemiBold"
-                               Foreground="#C8A84E"/>
+                               Foreground="{DynamicResource AccentBrush}"/>
                     <TextBlock Text="Status:"  
-                               Foreground="#888"
+                               Foreground="{DynamicResource SecondaryTextBrush}"
                                Margin="12,0,6,0"/>
                     <TextBlock x:Name="StatusParser" 
                                Text="OK"
@@ -151,7 +139,7 @@
                       HeadersVisibility="None"
                       GridLinesVisibility="None"
                       BorderThickness="0"
-                      Background="White"
+                      Background="{DynamicResource PrimaryBackgroundBrush}"
                       RowHeight="32"
                       Margin="-4,0,-4,0"
                       CanUserAddRows="False"
@@ -161,19 +149,16 @@
                       ScrollViewer.VerticalScrollBarVisibility="Hidden">
                 <DataGrid.Resources>
                     <Style TargetType="DataGridCell">
+                        <Setter Property="Background" Value="{DynamicResource PrimaryBackgroundBrush}"/>
                         <Setter Property="Focusable" Value="False"/>
-                        <Setter Property="FocusVisualStyle"
-                                Value="{x:Null}"/>
-                        <Setter Property="BorderThickness"
-                                Value="0"/>
-                        <Setter Property="Padding"
-                                Value="0"/>
-                        <Setter Property="IsHitTestVisible"
-                                Value="True"/>
+                        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+                        <Setter Property="BorderThickness" Value="0"/>
+                        <Setter Property="Padding" Value="0"/>
+                        <Setter Property="IsHitTestVisible" Value="True"/>
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="DataGridCell">
-                                    <Border Background="Transparent"
+                                    <Border Background="{TemplateBinding Background}"
                                             BorderThickness="0">
                                         <ContentPresenter/>
                                     </Border>

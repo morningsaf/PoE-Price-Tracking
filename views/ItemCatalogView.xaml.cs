@@ -112,7 +112,7 @@ namespace PoE_Price_Tracking.views
 
             StackPanel panel = new StackPanel
             {
-                Background = System.Windows.Media.Brushes.White,
+                Background = (System.Windows.Media.Brush)Application.Current.Resources["PopupBackgroundBrush"],
                 MinWidth = 100
             };
 
