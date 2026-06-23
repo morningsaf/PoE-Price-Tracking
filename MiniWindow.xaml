@@ -106,6 +106,7 @@
                       ScrollViewer.VerticalScrollBarVisibility="Hidden">
                 <DataGrid.Resources>
                     <Style TargetType="DataGridCell">
+                        <Setter Property="Focusable" Value="False"/>
                         <Setter Property="FocusVisualStyle"
                                 Value="{x:Null}"/>
                         <Setter Property="BorderThickness"
@@ -126,8 +127,7 @@
                         </Setter>
                     </Style>
                     <Style TargetType="DataGridRow">
-                        <Setter Property="IsHitTestVisible"
-                                Value="False"/>
+                        <Setter Property="IsHitTestVisible" Value="True"/>
                     </Style>
                 </DataGrid.Resources>
                 <DataGrid.Columns>
@@ -135,14 +135,44 @@
                     <DataGridTemplateColumn Width="*">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBlock Text="{Binding Name}"
-                                           FontSize="12"
-                                           VerticalAlignment="Center"/>
+                                <StackPanel Orientation="Horizontal" IsHitTestVisible="True" Focusable="False">
+                                    <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+                                    <Button Content="🔗" 
+                                            FontSize="10"
+                                            Margin="6,0,0,0"
+                                            Padding="0"
+                                            BorderThickness="0"
+                                            Focusable="False"
+                                            ToolTip="Open in trade"
+                                            Click="TradeLink_Click"
+                                            IsHitTestVisible="True"
+                                            Tag="{Binding TradeUrl}">
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="Opacity" Value="0.3"/>
+                                                <Setter Property="IsEnabled" Value="False"/>
+                                                <Setter Property="Cursor" Value="Arrow"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding HasPrice}" Value="True">
+                                                        <Setter Property="Opacity" Value="1"/>
+                                                        <Setter Property="IsEnabled" Value="True"/>
+                                                        <Setter Property="Cursor" Value="Hand"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+                                    </Button>
+                                </StackPanel>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
                     </DataGridTemplateColumn>
 
-                    <DataGridTemplateColumn Width="120">
+                    <DataGridTemplateColumn Width="80">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
                                 <Grid>

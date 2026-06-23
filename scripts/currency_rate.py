@@ -20,11 +20,10 @@ def fetch_currency_rates(league):
     response = session.get(f"https://poe.ninja/poe1/api/economy/exchange/current/overview?league={league}&type=Currency")
     data = response.json()
     rates = {"chaos": 1.0}
-    needed = {"divine", "exalted", "mirror", "annulment", "regal", "vaal", "alchemy", "scour",
-               "regret", "blessed", "gcp", "chance", "chisel"}
     for cur in data["lines"]:
             rates[cur["id"]] = cur["primaryValue"]
     return rates
+
 
 
 

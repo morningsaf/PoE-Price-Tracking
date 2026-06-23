@@ -1,5 +1,6 @@
 using System.Windows;
-using System.Windows.Input;
+using System.Diagnostics;
+using System.Windows.Controls;
 
 namespace PoE_Price_Tracking
 {
@@ -33,6 +34,12 @@ namespace PoE_Price_Tracking
             StatusParser.Text = text;
             var converter = new System.Windows.Media.BrushConverter();
             StatusParser.Foreground = (System.Windows.Media.Brush)converter.ConvertFromString(color)!;
+        }
+
+        private void TradeLink_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button btn && btn.Tag is string url && !string.IsNullOrEmpty(url))
+                System.Diagnostics.Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
         }
     }
 }

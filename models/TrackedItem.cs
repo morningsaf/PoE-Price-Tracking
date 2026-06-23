@@ -51,7 +51,7 @@ namespace PoE_Price_Tracking
         public string AmountText
         {
             get => _amountText;
-            set { _amountText = value; OnPropertyChanged(); }
+            set { _amountText = value; OnPropertyChanged(); OnPropertyChanged(nameof(HasPrice)); }
         }
 
         private string _trendColor = "Gray";
@@ -60,6 +60,19 @@ namespace PoE_Price_Tracking
             get => _trendColor;
             set { _trendColor = value; OnPropertyChanged(); }
         }
+
+        private string? _queryId;
+        public string? QueryId
+        {
+            get => _queryId;
+            set { _queryId = value; OnPropertyChanged(); OnPropertyChanged(nameof(HasPrice)); OnPropertyChanged(nameof(TradeUrl)); }
+        }
+
+        public bool HasPrice => !string.IsNullOrEmpty(_amountText) && _amountText != "No Data";
+
+        public string TradeUrl => string.IsNullOrEmpty(_queryId) 
+            ? "" 
+            : $"https://www.pathofexile.com/trade/search/{League}/{_queryId}";
         public event PropertyChangedEventHandler? PropertyChanged;
 
         private void OnPropertyChanged([CallerMemberName] string? propertyName = null)
@@ -79,7 +92,8 @@ namespace PoE_Price_Tracking
                 League = league,
                 Price = "",
                 IsLoading = true,
-                CurrencyIcon = ""
+                CurrencyIcon = "",
+                QueryId = null
             };
         }
     }

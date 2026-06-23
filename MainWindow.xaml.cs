@@ -73,16 +73,14 @@ public partial class MainWindow : Window
         SettingsViewControl.SetLeague(_currentLeague);
         SettingsViewControl.LeagueChanged += (league) =>
         {
+            _refreshCts?.Cancel();
             _miniWindow?.SetLeague(league);
             _currentLeague = league;
             StatusLeague.Text = _currentLeague;
             foreach (var tracked in trackedItems ?? new())
             {
+                tracked.QueryId = null;
                 tracked.League = league;
-                string cleanName = tracked.Name.Contains(" (") 
-                    ? tracked.Name.Substring(0, tracked.Name.LastIndexOf(" (")) 
-                    : tracked.Name;
-                tracked.Name = $"{cleanName} ({league})";
             }
             UserData data = new UserData { League = league, TrackedItems = _trackedNames };
             _trackedService.Save(data);
@@ -117,7 +115,6 @@ public partial class MainWindow : Window
         _currentRefreshTask = Task.Run(async () =>
         {
             string input = string.Join(",", itemNames);
-
             var psi = new ProcessStartInfo
             {
                 FileName = "python",
@@ -168,6 +165,7 @@ public partial class MainWindow : Window
                 item.IsLoading = true;
                 item.TrendText = "";
                 item.AmountText = "";
+                item.QueryId = null;
                 item.CurrencyIcon = "";
             }
             await FetchPricesStreaming(names, price =>
@@ -207,6 +205,7 @@ public partial class MainWindow : Window
                     item.TrendText = trend;
                     item.AmountText = $"{price.Amount}";
                     item.CurrencyIcon = System.IO.Path.Combine(_baseDir, "assets/images/currency", price.Currency + ".png");
+                    item.QueryId = price.QueryId;
                     item.IsLoading = false;
                 }
             });

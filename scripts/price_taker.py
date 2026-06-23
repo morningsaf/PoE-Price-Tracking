@@ -91,6 +91,6 @@ for name in names:
         trend = f"{round(((chaos_equal - prev_chaos_equal) / prev_chaos_equal) * 100, 2)}%"
     else:
         trend = "+0.00%"
-    result = {"name": name, "amount": price_data["amount"], "currency" : price_data["currency"], "trend" : trend}
+    result = {"name": name, "amount": price_data["amount"], "currency" : price_data["currency"], "trend" : trend, "query_id" : pos["id"]}
     print(json.dumps(result), flush=True)
-    #time.sleep(2)
+    time.sleep(2)

@@ -20,5 +20,7 @@ namespace PoE_Price_Tracking
         public string? Error { get; set; }
         [JsonPropertyName("retry_after")]
         public string? RetryAfter { get; set; }
+        [JsonPropertyName("query_id")]
+        public string? QueryId { get; set; }
     }
 }

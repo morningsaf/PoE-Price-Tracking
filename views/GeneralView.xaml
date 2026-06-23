@@ -27,7 +27,6 @@
                 <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
                 <Setter Property="BorderThickness" Value="0"/>
                 <Setter Property="Padding" Value="0"/>
-                <Setter Property="IsHitTestVisible" Value="False"/>
                 <Setter Property="Template">
                     <Setter.Value>
                         <ControlTemplate TargetType="DataGridCell">
@@ -39,7 +38,7 @@
                 </Setter>
             </Style>
             <Style TargetType="DataGridRow">
-                <Setter Property="IsHitTestVisible" Value="False"/>
+                <Setter Property="IsHitTestVisible" Value="True"/>
             </Style>
             <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Transparent"/>
             <SolidColorBrush x:Key="{x:Static SystemColors.HighlightTextBrushKey}" Color="Black"/>
@@ -59,8 +58,38 @@
             <DataGridTemplateColumn Width="*">
                 <DataGridTemplateColumn.CellTemplate>
                     <DataTemplate>
-                        <TextBlock Text="{Binding Name}" 
-                                   VerticalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+                            <Button Content="🔗" 
+                                    FontSize="10"
+                                    Margin="6,0,0,0"
+                                    Padding="0"
+                                    BorderThickness="0"
+                                    Focusable="False"
+                                    ToolTip="Open in trade"
+                                    Click="TradeLink_Click"
+                                    Tag="{Binding TradeUrl}">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </ControlTemplate>
+                                </Button.Template>
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="Opacity" Value="0.3"/>
+                                        <Setter Property="IsEnabled" Value="False"/>
+                                        <Setter Property="Cursor" Value="Arrow"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding HasPrice}" Value="True">
+                                                <Setter Property="Opacity" Value="1"/>
+                                                <Setter Property="IsEnabled" Value="True"/>
+                                                <Setter Property="Cursor" Value="Hand"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                        </StackPanel>
                     </DataTemplate>
                 </DataGridTemplateColumn.CellTemplate>
             </DataGridTemplateColumn>
