@@ -109,9 +109,17 @@ public partial class MainWindow : Window
         _currentRefreshTask = Task.Run(async () =>
         {
             string input = string.Join(",", itemNames);
+            string pythonExe;
+            string embeddedPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "python", "python.exe");
+            if (System.IO.File.Exists(embeddedPath))
+                pythonExe = embeddedPath;
+            else
+                pythonExe = "python";
+                
             var psi = new ProcessStartInfo
             {
-                FileName = "python",
+            
+                FileName = pythonExe,
                 Arguments = $"scripts/price_taker.py --items \"{input}\" --league {_currentLeague}",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,

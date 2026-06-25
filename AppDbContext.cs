@@ -9,7 +9,7 @@ namespace PoE_Price_Tracking
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlite(@"Data Source=D:\PoE Price Tracking\poe.db");
+            options.UseSqlite("Data Source=poe.db");
         }
     }
 }

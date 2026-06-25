@@ -1,6 +1,8 @@
 import requests
+import sys 
+import os
+sys.path.insert(0, os.path.dirname(__file__))
 import config
-import sys
 import json
 import argparse
 from pathlib import Path

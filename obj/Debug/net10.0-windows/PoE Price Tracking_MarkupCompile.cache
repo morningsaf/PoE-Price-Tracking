@@ -1,5 +1,5 @@
 ﻿PoE Price Tracking
-
+1.0.0.0
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_O
 D:\PoE Price Tracking\App.xaml
 7-1289531790
 1432-1985920861
-17-1557006038
+19-772068997
 225540372011
 MainWindow.xaml;MiniWindow.xaml;themes\DarkTheme.xaml;themes\LightTheme.xaml;views\GeneralView.xaml;views\ItemCatalogView.xaml;views\SettingsView.xaml;
 
-False
+True
 
